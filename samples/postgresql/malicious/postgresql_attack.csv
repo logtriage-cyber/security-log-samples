@@ -1,0 +1,5 @@
+log_time,user_name,database_name,process_id,connection_from,session_id,session_line_num,command_tag,session_start_time,virtual_transaction_id,transaction_id,error_severity,sql_state_code,message,detail,hint,internal_query,internal_query_pos,context,query,query_pos,location,application_name
+2024-01-15 14:30:01.000 UTC,attacker,production,12345,198.51.100.24:55001,abc123,1,SELECT,2024-01-15 14:30:00 UTC,3/12345,0,ERROR,42501,permission denied for table users,,,,,,,0,,psql
+2024-01-15 14:30:02.000 UTC,attacker,production,12346,198.51.100.24:55002,abc124,1,SELECT,2024-01-15 14:30:01 UTC,3/12346,0,FATAL,28P01,password authentication failed for user "postgres",,,,,,,0,,python-psycopg2
+2024-01-15 14:30:03.000 UTC,root,production,12347,198.51.100.8:55003,abc125,1,SELECT,2024-01-15 14:30:02 UTC,3/12347,67890,ERROR,42P01,"relation ""pg_shadow"" does not exist",,,,,,"SELECT usename, passwd FROM pg_shadow",0,,psql
+2024-01-15 14:30:04.000 UTC,root,production,12348,198.51.100.8:55004,abc126,1,DROP TABLE,2024-01-15 14:30:03 UTC,3/12348,67891,ERROR,42501,must be owner of table audit_logs,,,,,,"DROP TABLE audit_logs",0,,psql

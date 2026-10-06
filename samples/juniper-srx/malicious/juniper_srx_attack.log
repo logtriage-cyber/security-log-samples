@@ -1,0 +1,6 @@
+Jan 15 14:30:01 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied TCP 198.51.100.24/54321->10.0.0.50/22 None None None 6 deny-all vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12345 N/A(N/A)
+Jan 15 14:30:05 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied TCP 198.51.100.24/54322->10.0.0.50/22 None None None 6 deny-all vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12346 N/A(N/A)
+Jan 15 14:32:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied TCP 198.51.100.8/44000->10.0.0.100/443 None None None 6 deny-malicious vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12347 N/A(N/A)
+Jan 15 14:33:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied TCP 198.51.100.24/54400->10.0.0.100/8080 None None None 6 deny-all vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12348 N/A(N/A)
+Jan 15 14:35:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied UDP 198.51.100.24/54500->10.0.0.50/161 None None None 17 deny-all vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12349 N/A(N/A)
+Jan 15 14:36:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_DENY: session denied TCP 198.51.100.24/54600->10.0.0.1/23 None None None 6 deny-telnet vsys1 N/A(N/A) ge-0/0/0.0 UNKNOWN UNKNOWN N/A 12350 N/A(N/A)

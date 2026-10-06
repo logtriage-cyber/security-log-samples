@@ -1,0 +1,4 @@
+Jan 15 09:00:01 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_CREATE: session created TCP 203.0.113.10/52100->10.0.0.100/443 None None None 6 allow-web vsys1 alice ge-0/0/0.0 trust untrust N/A 10001 N/A(N/A)
+Jan 15 09:00:15 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_CLOSE: session closed TCP 203.0.113.10/52100->10.0.0.100/443 None None None 6 allow-web vsys1 alice ge-0/0/0.0 trust untrust N/A 10001 TCP FIN
+Jan 15 09:05:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_CREATE: session created TCP 203.0.113.11/60000->10.0.0.100/80 None None None 6 allow-web vsys1 bob ge-0/0/0.0 trust untrust N/A 10002 N/A(N/A)
+Jan 15 09:10:00 srx-fw-01 RT_FLOW: RT_FLOW_SESSION_CREATE: session created UDP 203.0.113.12/56000->10.0.0.50/53 None None None 17 allow-dns vsys1 N/A ge-0/0/0.0 trust untrust N/A 10003 N/A(N/A)

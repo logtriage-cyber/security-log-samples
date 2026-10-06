@@ -1,0 +1,4 @@
+log_time,user_name,database_name,process_id,connection_from,session_id,session_line_num,command_tag,session_start_time,virtual_transaction_id,transaction_id,error_severity,sql_state_code,message,detail,hint,internal_query,internal_query_pos,context,query,query_pos,location,application_name
+2024-01-15 09:00:01.000 UTC,app_user,appdb,10001,10.0.0.10:52001,aaa001,1,SELECT,2024-01-15 09:00:00 UTC,2/10001,0,LOG,00000,statement: SELECT id FROM users WHERE active=true LIMIT 10,,,,,,,0,,node-postgres
+2024-01-15 09:01:00.000 UTC,app_user,appdb,10002,10.0.0.10:52002,aaa002,1,INSERT,2024-01-15 09:01:00 UTC,2/10002,55001,LOG,00000,statement: INSERT INTO sessions (user_id, token) VALUES ($1, $2),,,,,,,0,,node-postgres
+2024-01-15 09:02:00.000 UTC,reporting,appdb,10003,10.0.0.20:52003,aaa003,1,SELECT,2024-01-15 09:02:00 UTC,2/10003,0,LOG,00000,statement: SELECT count(*) FROM orders WHERE created_at > now() - interval '1 day',,,,,,,0,,pgAdmin

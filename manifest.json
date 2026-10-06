@@ -1,0 +1,1341 @@
+[
+ {
+  "path": "samples/aws-alb/benign/alb_normal.log",
+  "format": "aws-alb",
+  "format_name": "AWS ALB / ELB",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 1398,
+  "lines": 3,
+  "sha256": "5fbd33174d6860fdfcb41c881094193cdd7609e5c4cea193c2e46f575c9431d0",
+  "sigma_rules": [
+   "LTR-0019 aws-alb-scanner-scripted-access"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/auth-log/benign/authlog_normal.log",
+  "format": "auth-log",
+  "format_name": "Linux auth.log / secure",
+  "category": "Endpoint",
+  "label": "benign",
+  "bytes": 2094,
+  "lines": 20,
+  "sha256": "d86ee6c369f0de91479ac0e11114fbaf53f87f1f7aee5985ab9f3d16045b20e4",
+  "sigma_rules": [
+   "LTR-0011 authlog-ssh-brute-force"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-config/benign/aws_config_normal.json",
+  "format": "aws-config",
+  "format_name": "AWS Config",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 836,
+  "lines": 1,
+  "sha256": "bd6cc92725d78a1149729c704b918e134c1e5a085e9289405f11268207540973",
+  "sigma_rules": [
+   "LTR-0020 aws-config-security-control-tampering"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-waf/benign/aws_waf_normal.json",
+  "format": "aws-waf",
+  "format_name": "AWS WAF",
+  "category": "WAF",
+  "label": "benign",
+  "bytes": 2518,
+  "lines": 3,
+  "sha256": "7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-activity/benign/azure_activity_normal.json",
+  "format": "azure-activity",
+  "format_name": "Azure ARM Activity Log",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 1249,
+  "lines": 1,
+  "sha256": "fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-ad-signin/benign/azure_normal_corporate.json",
+  "format": "azure-ad-signin",
+  "format_name": "Azure AD Sign-In Logs",
+  "category": "Identity",
+  "label": "benign",
+  "bytes": 5391,
+  "lines": 94,
+  "sha256": "5c0f0e7aac9c18f35a2ea23e2c8f58d0964eb521614202bfc261b477ca459fe7",
+  "sigma_rules": [
+   "LTR-0004 azure-legacy-auth-mfa-bypass"
+  ],
+  "reference": "https://logtriage.app/reference/log-formats/azure-ad-signin/"
+ },
+ {
+  "path": "samples/carbonblack/benign/carbonblack_normal.json",
+  "format": "carbonblack",
+  "format_name": "Carbon Black",
+  "category": "EDR",
+  "label": "benign",
+  "bytes": 833,
+  "lines": 3,
+  "sha256": "8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cef/benign/cef_firewall_normal.log",
+  "format": "cef",
+  "format_name": "CEF (Common Event Format)",
+  "category": "Network & Firewall",
+  "label": "benign",
+  "bytes": 2360,
+  "lines": 8,
+  "sha256": "5f5aefefa1738e1bd3c9f3d83ddb39333e3b7a2785811d4a9e8e06c31714bf53",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cisco-asa/benign/cisco_asa_normal.log",
+  "format": "cisco-asa",
+  "format_name": "Cisco ASA / FTD",
+  "category": "Firewall",
+  "label": "benign",
+  "bytes": 911,
+  "lines": 6,
+  "sha256": "1efa712708441531cdf2d4f5a234272e5b5b4182ea77eea6875b48287f021e4a",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cloudflare/benign/cloudflare_normal_traffic.json",
+  "format": "cloudflare",
+  "format_name": "Cloudflare Logs",
+  "category": "Network & CDN",
+  "label": "benign",
+  "bytes": 2274,
+  "lines": 6,
+  "sha256": "a94639f1e23f359b5c35c5ec0b537fc135b596d1022ead7e8342b31456d9abc6",
+  "sigma_rules": [
+   "LTR-0010 cloudflare-path-traversal-recon"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/cloudtrail/benign/cloudtrail_normal_operations.json",
+  "format": "cloudtrail",
+  "format_name": "AWS CloudTrail",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 2540,
+  "lines": 79,
+  "sha256": "2604aab3b7026f5702eae774d9eb3e000cf52702ef87d30d4a623fcae5d9c54d",
+  "sigma_rules": [
+   "LTR-0002 cloudtrail-iam-privilege-escalation"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/crowdstrike/benign/crowdstrike_normal.json",
+  "format": "crowdstrike",
+  "format_name": "CrowdStrike Falcon",
+  "category": "EDR",
+  "label": "benign",
+  "bytes": 994,
+  "lines": 4,
+  "sha256": "4ab9bc57995688dc77f4d6f0caba3f1b97aa5948d0a1d12a88483ef38fb23acf",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/crowdstrike/"
+ },
+ {
+  "path": "samples/duo/benign/duo_normal.json",
+  "format": "duo",
+  "format_name": "Duo Security",
+  "category": "Identity",
+  "label": "benign",
+  "bytes": 738,
+  "lines": 1,
+  "sha256": "c1c2ac1cbf178234ad91397f53e8b5a8777feb4cec774494961ee644970b2870",
+  "sigma_rules": [
+   "LTR-0013 duo-mfa-fatigue-bypass"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/ecs/benign/ecs_normal.json",
+  "format": "ecs",
+  "format_name": "Elastic Common Schema",
+  "category": "SIEM",
+  "label": "benign",
+  "bytes": 1271,
+  "lines": 3,
+  "sha256": "f858252a6302853727f03864e459504ca4f656a0174c7356bff97a390ca99781",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/f5-asm/benign/f5_asm_normal.log",
+  "format": "f5-asm",
+  "format_name": "F5 BIG-IP ASM",
+  "category": "WAF",
+  "label": "benign",
+  "bytes": 917,
+  "lines": 3,
+  "sha256": "8e97c4c2bd6e0e6cd38214b4fca91cecc77cd16ef950765963835abe1225a288",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/fortigate/benign/fortigate_normal.log",
+  "format": "fortigate",
+  "format_name": "FortiGate",
+  "category": "Firewall",
+  "label": "benign",
+  "bytes": 979,
+  "lines": 3,
+  "sha256": "332e39b1446c77397af561cbbc7893195dae461e053f6c54803d73c00db46cbf",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/gcp-audit/benign/gcp_normal_operations.json",
+  "format": "gcp-audit",
+  "format_name": "GCP Cloud Audit Log",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 2315,
+  "lines": 6,
+  "sha256": "6b33c3a35bea0952711efa309c9764f5c5fce3f131e0cab7d12d02d1c492a0d1",
+  "sigma_rules": [
+   "LTR-0008 gcp-iam-privilege-escalation"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/generic-csv/benign/generic_normal_api.csv",
+  "format": "generic-csv",
+  "format_name": "Generic CSV",
+  "category": "Generic",
+  "label": "benign",
+  "bytes": 1550,
+  "lines": 13,
+  "sha256": "588591054145dc884ef56ab64ae061955699192ac84d111b42100e3bbfd06845",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/github-audit/benign/github_audit_normal.json",
+  "format": "github-audit",
+  "format_name": "GitHub Audit Log",
+  "category": "SaaS",
+  "label": "benign",
+  "bytes": 576,
+  "lines": 1,
+  "sha256": "8713c60e84f22a8a99e838a002b17d980513f15a3012ee852a59aaeb9334f24f",
+  "sigma_rules": [
+   "LTR-0014 github-audit-org-takeover"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/google-workspace/benign/google_workspace_normal.json",
+  "format": "google-workspace",
+  "format_name": "Google Workspace",
+  "category": "SaaS",
+  "label": "benign",
+  "bytes": 785,
+  "lines": 1,
+  "sha256": "28cd7c7ac5798cb41886b8297d084e8249f4d524e8fefa3ba8619f301ac56338",
+  "sigma_rules": [
+   "LTR-0017 google-workspace-admin-takeover"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/guardduty/benign/guardduty_normal.json",
+  "format": "guardduty",
+  "format_name": "AWS GuardDuty",
+  "category": "Cloud Security",
+  "label": "benign",
+  "bytes": 2682,
+  "lines": 75,
+  "sha256": "f85f693428796aee4c349fcd15c7093f56339a1a91d2d98168605fa3ec138baf",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/haproxy/benign/haproxy_normal.log",
+  "format": "haproxy",
+  "format_name": "HAProxy",
+  "category": "Network",
+  "label": "benign",
+  "bytes": 582,
+  "lines": 3,
+  "sha256": "356266f34db25a058c9f0e7132dcfc7d8bed0ec66c65119e138bc9ce9dce82f9",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/iis/benign/iis_normal.log",
+  "format": "iis",
+  "format_name": "IIS W3C Extended",
+  "category": "Web",
+  "label": "benign",
+  "bytes": 654,
+  "lines": 7,
+  "sha256": "59a1121bef9df3fd355f554764827f2759521ab2316bd0d63d7dee55001cc371",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-inspector/benign/inspector_normal.json",
+  "format": "aws-inspector",
+  "format_name": "AWS Inspector v2",
+  "category": "Cloud Security",
+  "label": "benign",
+  "bytes": 1448,
+  "lines": 1,
+  "sha256": "19d6dc39718ddca9656300d6e7a41cb8c77c85fc34921164ef98c155a7cb1cb7",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/jumpcloud/benign/jumpcloud_normal.json",
+  "format": "jumpcloud",
+  "format_name": "JumpCloud Directory",
+  "category": "Identity",
+  "label": "benign",
+  "bytes": 887,
+  "lines": 1,
+  "sha256": "feff1c9ac9c65c438014dada64253982014440ec175009a4383836e13299a124",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/juniper-srx/benign/juniper_srx_normal.log",
+  "format": "juniper-srx",
+  "format_name": "Juniper SRX",
+  "category": "Firewall",
+  "label": "benign",
+  "bytes": 779,
+  "lines": 4,
+  "sha256": "94460cc1b6f14b083912d15501ff03bdf48a7178a49356a53aab1442a07d1eae",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/k8s-audit/benign/k8s_normal_operations.json",
+  "format": "k8s-audit",
+  "format_name": "Kubernetes Audit Log",
+  "category": "Cloud-Native",
+  "label": "benign",
+  "bytes": 3411,
+  "lines": 7,
+  "sha256": "4c0db70b59c1ade262b0aad3a8a55c6bb8718d7f90e3d577ca2dbf44a9156c79",
+  "sigma_rules": [
+   "LTR-0009 k8s-secret-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/leef/benign/leef_normal_events.log",
+  "format": "leef",
+  "format_name": "IBM LEEF",
+  "category": "SIEM",
+  "label": "benign",
+  "bytes": 1007,
+  "lines": 4,
+  "sha256": "f89ee951fb67dcaca9978a4f36ed156f21cac587f7107dccaec49779c2fc5acb",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/m365/benign/m365_normal_activity.json",
+  "format": "m365",
+  "format_name": "Microsoft 365 Unified Audit Log",
+  "category": "SaaS",
+  "label": "benign",
+  "bytes": 2166,
+  "lines": 8,
+  "sha256": "900a70adc99b2004c82b7b8a69c9dcc03ec8efaf8ccbdf06f941c5709be33f33",
+  "sigma_rules": [
+   "LTR-0006 m365-bec-inbox-rule"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/mdatp/benign/mdatp_normal.json",
+  "format": "mdatp",
+  "format_name": "Microsoft Defender for Endpoint",
+  "category": "EDR",
+  "label": "benign",
+  "bytes": 1053,
+  "lines": 3,
+  "sha256": "50860b156ef6fbab4b50c27778398ca87566e9613be6f10fe006d60d65824ac0",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/mysql/benign/mysql_normal.log",
+  "format": "mysql",
+  "format_name": "MySQL",
+  "category": "Database",
+  "label": "benign",
+  "bytes": 737,
+  "lines": 12,
+  "sha256": "719640b9ace8b9b40fccabdb6f452f1d8700bf644164ef6829821f5fbfd42b25",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/benign/nginx_api_developer.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "benign",
+  "bytes": 1810,
+  "lines": 15,
+  "sha256": "d36f80ecf797e7e32ba418ff7fc682d899d669a3929fc9916ccc78b2b09bf6fc",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/benign/nginx_normal_browsing.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "benign",
+  "bytes": 3217,
+  "lines": 15,
+  "sha256": "efde42b73bb45bd8d63b58f749c07d3a33f157a2d03d0d61301884139d3ed6c1",
+  "sigma_rules": [
+   "LTR-0001 nginx-credential-stuffing",
+   "LTR-0015 nginx-sqli-data-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-nsg/benign/nsg_flow_benign.json",
+  "format": "azure-nsg",
+  "format_name": "Azure NSG Flow Logs",
+  "category": "Cloud Network",
+  "label": "benign",
+  "bytes": 2358,
+  "lines": 68,
+  "sha256": "dc85b4c95e35e97802cd10c373a88871d62b64956d7623856a9a3a21a481bd93",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/okta/benign/okta_normal_logins.json",
+  "format": "okta",
+  "format_name": "Okta System Log",
+  "category": "Identity",
+  "label": "benign",
+  "bytes": 4190,
+  "lines": 9,
+  "sha256": "dee3b1c5e0ee3b94c20d2c178b7481f55c89be5c0578d0d85d916081448e4a61",
+  "sigma_rules": [
+   "LTR-0007 okta-credential-stuffing"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/panos/benign/panos_normal_traffic.log",
+  "format": "panos",
+  "format_name": "PAN-OS Native CSV",
+  "category": "Firewall",
+  "label": "benign",
+  "bytes": 895,
+  "lines": 3,
+  "sha256": "4ce3e4c3f533292ce0ad39e677047f5ebc2002bb30beeba9d42215fa0cdc4fe0",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/postgresql/benign/postgresql_normal.csv",
+  "format": "postgresql",
+  "format_name": "PostgreSQL",
+  "category": "Database",
+  "label": "benign",
+  "bytes": 941,
+  "lines": 4,
+  "sha256": "8c2f05849e54d0ab72845cb5b1c86f1512df5e3aa25b423e835a1c10e7b525e5",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-s3-access/benign/s3_access_normal.log",
+  "format": "aws-s3-access",
+  "format_name": "AWS S3 Server Access Logs",
+  "category": "Cloud",
+  "label": "benign",
+  "bytes": 1200,
+  "lines": 3,
+  "sha256": "de6b58617e883c3f28c0cc253a69dd32a5175b58c5ae831757acd8af4faa10b1",
+  "sigma_rules": [
+   "LTR-0016 s3-anonymous-access-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-securityhub/benign/securityhub_normal.json",
+  "format": "aws-securityhub",
+  "format_name": "AWS Security Hub",
+  "category": "Cloud Security",
+  "label": "benign",
+  "bytes": 1595,
+  "lines": 1,
+  "sha256": "54ce108ce237893cced5d02b46dbb194c592c31d4b49eb9b74d789eeb9262a38",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/sentinelone/benign/sentinelone_normal.json",
+  "format": "sentinelone",
+  "format_name": "SentinelOne",
+  "category": "EDR",
+  "label": "benign",
+  "bytes": 1235,
+  "lines": 2,
+  "sha256": "3ec84f55f1c9214ede898d616bb6e856b24f5751f509deae488702e850cb42f5",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/slack-audit/benign/slack_audit_normal.json",
+  "format": "slack-audit",
+  "format_name": "Slack Audit Log",
+  "category": "SaaS",
+  "label": "benign",
+  "bytes": 961,
+  "lines": 1,
+  "sha256": "8cb731cf2fe6bbf44c1aa0a64312d8c0db36e9e68ac2b952c2c339df6b073a0c",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/snort/benign/snort_normal.log",
+  "format": "snort",
+  "format_name": "Snort",
+  "category": "IDS/IPS",
+  "label": "benign",
+  "bytes": 894,
+  "lines": 5,
+  "sha256": "7de143c27ed46eb41918efbc75d5dc2e168a750118314622c9b67f0de760fded",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/suricata/benign/suricata_normal_traffic.json",
+  "format": "suricata",
+  "format_name": "Suricata",
+  "category": "IDS/IPS",
+  "label": "benign",
+  "bytes": 2431,
+  "lines": 6,
+  "sha256": "dad819cad7107a08e72803d6f719ebe83c4cee197488bb54aa084801c3117fde",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/syslog/benign/syslog_normal.log",
+  "format": "syslog",
+  "format_name": "Syslog (RFC 5424 / 3164)",
+  "category": "Network",
+  "label": "benign",
+  "bytes": 1611,
+  "lines": 14,
+  "sha256": "3085072ca9707fd2f37cee40f7efe65f86581abd06d3aa670e16d925d6bd060e",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/sysmon/benign/sysmon_normal.xml",
+  "format": "sysmon",
+  "format_name": "Sysmon",
+  "category": "Endpoint",
+  "label": "benign",
+  "bytes": 2011,
+  "lines": 47,
+  "sha256": "09b66995796c360575129e749c81a981e533c6fed42ca6a46dbf110240c50c02",
+  "sigma_rules": [
+   "LTR-0003 sysmon-lsass-credential-dumping"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/traefik/benign/traefik_normal.json",
+  "format": "traefik",
+  "format_name": "Traefik",
+  "category": "Network",
+  "label": "benign",
+  "bytes": 921,
+  "lines": 3,
+  "sha256": "f363a51847ad3fb4448e5d9e3a3412d46c49cdc7a2956db3da7f1c3b1cee533a",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/vpc-flow/benign/vpc_flow_benign.log",
+  "format": "vpc-flow",
+  "format_name": "AWS VPC Flow Logs",
+  "category": "Cloud Network",
+  "label": "benign",
+  "bytes": 1350,
+  "lines": 13,
+  "sha256": "12e0505a03ef835092ef3775f6a21c06aff164840d7417d020d3dc172873b127",
+  "sigma_rules": [
+   "LTR-0005 vpc-flow-port-scanning"
+  ],
+  "reference": "https://logtriage.app/reference/log-formats/vpc-flow/"
+ },
+ {
+  "path": "samples/wazuh/benign/wazuh_normal.json",
+  "format": "wazuh",
+  "format_name": "Wazuh",
+  "category": "HIDS",
+  "label": "benign",
+  "bytes": 1943,
+  "lines": 4,
+  "sha256": "135080cd77c62d90244be5f8dc29d911378c1ad529b78fd0c60e04ec1fa21e04",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/evtx/benign/windows_normal_logons.xml",
+  "format": "evtx",
+  "format_name": "Windows Event Log",
+  "category": "Endpoint",
+  "label": "benign",
+  "bytes": 5484,
+  "lines": 131,
+  "sha256": "a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107",
+  "sigma_rules": [
+   "LTR-0012 windows-4625-password-spray"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/zeek/benign/zeek_normal_http.log",
+  "format": "zeek",
+  "format_name": "Zeek",
+  "category": "IDS/IPS",
+  "label": "benign",
+  "bytes": 1904,
+  "lines": 14,
+  "sha256": "ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc",
+  "sigma_rules": [
+   "LTR-0018 zeek-http-web-attack-recon"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-alb/malicious/alb_attack.log",
+  "format": "aws-alb",
+  "format_name": "AWS ALB / ELB",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 1627,
+  "lines": 4,
+  "sha256": "9aa2062c221cdf259ddfe4a29551e51e74938db4f985c534ea6790d91400bf80",
+  "sigma_rules": [
+   "LTR-0019 aws-alb-scanner-scripted-access"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/auth-log/malicious/authlog_brute_force.log",
+  "format": "auth-log",
+  "format_name": "Linux auth.log / secure",
+  "category": "Endpoint",
+  "label": "malicious",
+  "bytes": 2586,
+  "lines": 27,
+  "sha256": "bc7e7f8ccbbe34bf7eb7f0d4f326760128b6ac2424fe07892f1ef1f572508277",
+  "sigma_rules": [
+   "LTR-0011 authlog-ssh-brute-force"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-config/malicious/aws_config_changes.json",
+  "format": "aws-config",
+  "format_name": "AWS Config",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 1149,
+  "lines": 1,
+  "sha256": "8b12ffae30f412695a73b4a452ac416094c6861a538f6ee4d83e47c36a8fc755",
+  "sigma_rules": [
+   "LTR-0020 aws-config-security-control-tampering"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-waf/malicious/aws_waf_blocked.json",
+  "format": "aws-waf",
+  "format_name": "AWS WAF",
+  "category": "WAF",
+  "label": "malicious",
+  "bytes": 3913,
+  "lines": 4,
+  "sha256": "6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-activity/malicious/azure_activity_attack.json",
+  "format": "azure-activity",
+  "format_name": "Azure ARM Activity Log",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 1416,
+  "lines": 1,
+  "sha256": "da4aca5596c568617883de915e72741640a597bb06f58cd95a1852bf946e7762",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-ad-signin/malicious/azure_brute_force.json",
+  "format": "azure-ad-signin",
+  "format_name": "Azure AD Sign-In Logs",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 8617,
+  "lines": 156,
+  "sha256": "2e8a965f46a6ea5b08b136a31f620a9f6cee34c54ed63d7e47464f3615263c2b",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/azure-ad-signin/"
+ },
+ {
+  "path": "samples/azure-ad-signin/malicious/azure_impossible_travel.json",
+  "format": "azure-ad-signin",
+  "format_name": "Azure AD Sign-In Logs",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 6688,
+  "lines": 219,
+  "sha256": "b6b941c7ee3e4367a4864ed7237e7c8e82b2ef8e4d921fed32e371c903330b32",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/azure-ad-signin/"
+ },
+ {
+  "path": "samples/azure-ad-signin/malicious/azure_injection_downgrade.json",
+  "format": "azure-ad-signin",
+  "format_name": "Azure AD Sign-In Logs",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 2356,
+  "lines": 55,
+  "sha256": "a5d8a2c1c88949c511c29ef3207915747cc8c5a3be8a84211c201d1646cd4093",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/azure-ad-signin/"
+ },
+ {
+  "path": "samples/azure-ad-signin/malicious/azure_mfa_bypass.json",
+  "format": "azure-ad-signin",
+  "format_name": "Azure AD Sign-In Logs",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 5250,
+  "lines": 94,
+  "sha256": "ec32516106e9ac72e3b8a2915f9c8525ba72696b60bf8fe94a5d41ba801f8e5b",
+  "sigma_rules": [
+   "LTR-0004 azure-legacy-auth-mfa-bypass"
+  ],
+  "reference": "https://logtriage.app/reference/log-formats/azure-ad-signin/"
+ },
+ {
+  "path": "samples/carbonblack/malicious/carbonblack_attack.json",
+  "format": "carbonblack",
+  "format_name": "Carbon Black",
+  "category": "EDR",
+  "label": "malicious",
+  "bytes": 1341,
+  "lines": 4,
+  "sha256": "7f7c79d4692839de4a90006232b6137188064e5be40aaae909e7849299b175ab",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cef/malicious/cef_firewall_attack.log",
+  "format": "cef",
+  "format_name": "CEF (Common Event Format)",
+  "category": "Network & Firewall",
+  "label": "malicious",
+  "bytes": 3066,
+  "lines": 10,
+  "sha256": "26d663787b409009e45dfdcc04ce832e17b45e78497a3f75c9fcc475a432c8b4",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cisco-asa/malicious/cisco_asa_attack.log",
+  "format": "cisco-asa",
+  "format_name": "Cisco ASA / FTD",
+  "category": "Firewall",
+  "label": "malicious",
+  "bytes": 1320,
+  "lines": 8,
+  "sha256": "ef3025b6d3dadc03c2a35fc5d81c2d13894f11a685efb95950cff5eaff722526",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/cloudflare/malicious/cloudflare_waf_attack.json",
+  "format": "cloudflare",
+  "format_name": "Cloudflare Logs",
+  "category": "Network & CDN",
+  "label": "malicious",
+  "bytes": 3677,
+  "lines": 10,
+  "sha256": "26087fc6daafb8d2410f9cb02cfdab0dc5b4af1f12d2ab608f4eb92da8c2b25e",
+  "sigma_rules": [
+   "LTR-0010 cloudflare-path-traversal-recon"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/cloudtrail/malicious/cloudtrail_iam_escalation.json",
+  "format": "cloudtrail",
+  "format_name": "AWS CloudTrail",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 4655,
+  "lines": 134,
+  "sha256": "e664e975d6fd3f019e903b3cbc3f341856ade49dfb174579b1397d98a90c65a1",
+  "sigma_rules": [
+   "LTR-0002 cloudtrail-iam-privilege-escalation"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/crowdstrike/malicious/crowdstrike_detections.json",
+  "format": "crowdstrike",
+  "format_name": "CrowdStrike Falcon",
+  "category": "EDR",
+  "label": "malicious",
+  "bytes": 1646,
+  "lines": 5,
+  "sha256": "a1ab467838e0c912102a270c0af0462665227e2c4f95493b030f6058e98eae4c",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/crowdstrike/"
+ },
+ {
+  "path": "samples/duo/malicious/duo_attack.json",
+  "format": "duo",
+  "format_name": "Duo Security",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 927,
+  "lines": 1,
+  "sha256": "423df4a99e580cda5a468c821f66785460a10902444921d2306d52589f985e30",
+  "sigma_rules": [
+   "LTR-0013 duo-mfa-fatigue-bypass"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/ecs/malicious/ecs_attack.json",
+  "format": "ecs",
+  "format_name": "Elastic Common Schema",
+  "category": "SIEM",
+  "label": "malicious",
+  "bytes": 1881,
+  "lines": 4,
+  "sha256": "6e47f1bfe9e7fbbe5176382f92c41819c772566620f4d0887b66c0ecb1152dfa",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/f5-asm/malicious/f5_asm_attacks.log",
+  "format": "f5-asm",
+  "format_name": "F5 BIG-IP ASM",
+  "category": "WAF",
+  "label": "malicious",
+  "bytes": 1533,
+  "lines": 5,
+  "sha256": "1de32931308c87b5e0212273d4805b315349339351622475d0d54e3ebcafed9a",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/fortigate/malicious/fortigate_attack.log",
+  "format": "fortigate",
+  "format_name": "FortiGate",
+  "category": "Firewall",
+  "label": "malicious",
+  "bytes": 1661,
+  "lines": 5,
+  "sha256": "d26299b0a4deb53e772cb5c3e379621e57d1c350a42d56ba78c523b54c87f889",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/gcp-audit/malicious/gcp_iam_escalation.json",
+  "format": "gcp-audit",
+  "format_name": "GCP Cloud Audit Log",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 3966,
+  "lines": 8,
+  "sha256": "2cb3b1be8198b416d852ae22ee5fc1edf417b0185fe21869531a09ae97f6c74c",
+  "sigma_rules": [
+   "LTR-0008 gcp-iam-privilege-escalation"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/generic-csv/malicious/generic_api_scraper.csv",
+  "format": "generic-csv",
+  "format_name": "Generic CSV",
+  "category": "Generic",
+  "label": "malicious",
+  "bytes": 1868,
+  "lines": 21,
+  "sha256": "c7d96670b1c303af3f5077b6aca7dd81de2da58f69c8991a8d71847dd8600f58",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/github-audit/malicious/github_audit_attack.json",
+  "format": "github-audit",
+  "format_name": "GitHub Audit Log",
+  "category": "SaaS",
+  "label": "malicious",
+  "bytes": 754,
+  "lines": 1,
+  "sha256": "9e098769a89e7ad4be9d57514fb00d818cc8f0e125ff4f805781b752449266cd",
+  "sigma_rules": [
+   "LTR-0014 github-audit-org-takeover"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/google-workspace/malicious/google_workspace_attack.json",
+  "format": "google-workspace",
+  "format_name": "Google Workspace",
+  "category": "SaaS",
+  "label": "malicious",
+  "bytes": 1188,
+  "lines": 1,
+  "sha256": "4679cc35a662ce85b9cd075e54184639dbb89f70d83f7f4123a12a61ea406079",
+  "sigma_rules": [
+   "LTR-0017 google-workspace-admin-takeover"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/guardduty/malicious/guardduty_findings.json",
+  "format": "guardduty",
+  "format_name": "AWS GuardDuty",
+  "category": "Cloud Security",
+  "label": "malicious",
+  "bytes": 4362,
+  "lines": 112,
+  "sha256": "cfb4b2c8fce6b99b108aa1f2f8b259533b422e23fd7a1e03f76163168756f146",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/haproxy/malicious/haproxy_attack.log",
+  "format": "haproxy",
+  "format_name": "HAProxy",
+  "category": "Network",
+  "label": "malicious",
+  "bytes": 778,
+  "lines": 4,
+  "sha256": "06a85410c32fe58148d72c48eff9c2b484ee3c0c5a34f3c4558a66d84cfff175",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/iis/malicious/iis_attack.log",
+  "format": "iis",
+  "format_name": "IIS W3C Extended",
+  "category": "Web",
+  "label": "malicious",
+  "bytes": 751,
+  "lines": 9,
+  "sha256": "9c4f7b583eb937e2b13f5473cde1f4929795ec0c27dc5c6204beb6e9c1a2faff",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-inspector/malicious/inspector_findings.json",
+  "format": "aws-inspector",
+  "format_name": "AWS Inspector v2",
+  "category": "Cloud Security",
+  "label": "malicious",
+  "bytes": 1597,
+  "lines": 1,
+  "sha256": "5e8687ff58bf4c53bd968f2f5bac7f3c7b8b9fff5aa7fe8164d945f5e9c39c2f",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/jumpcloud/malicious/jumpcloud_attack.json",
+  "format": "jumpcloud",
+  "format_name": "JumpCloud Directory",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 1030,
+  "lines": 1,
+  "sha256": "0f101d6b70e2526a0d67b17b726e9e346551a4d894630deff7296d93d8febb41",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/juniper-srx/malicious/juniper_srx_attack.log",
+  "format": "juniper-srx",
+  "format_name": "Juniper SRX",
+  "category": "Firewall",
+  "label": "malicious",
+  "bytes": 1196,
+  "lines": 6,
+  "sha256": "ea670a59132d7e418c4b6aa6ac62f1c10c95e863a793543ee25e8e9485933857",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/k8s-audit/malicious/k8s_exec_secret_exfil.json",
+  "format": "k8s-audit",
+  "format_name": "Kubernetes Audit Log",
+  "category": "Cloud-Native",
+  "label": "malicious",
+  "bytes": 4965,
+  "lines": 9,
+  "sha256": "30eb33a098818c808432d7d7b0bf1e96a30bec5f17feba9033720b0fa6561849",
+  "sigma_rules": [
+   "LTR-0009 k8s-secret-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/leef/malicious/leef_attack_events.log",
+  "format": "leef",
+  "format_name": "IBM LEEF",
+  "category": "SIEM",
+  "label": "malicious",
+  "bytes": 1278,
+  "lines": 5,
+  "sha256": "012d1b97fd947fb2e7e43f0cdc0bde5be58e920a582bddbb49bc2ff4ac5d2bd0",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/m365/malicious/m365_bec_data_exfil.json",
+  "format": "m365",
+  "format_name": "Microsoft 365 Unified Audit Log",
+  "category": "SaaS",
+  "label": "malicious",
+  "bytes": 3445,
+  "lines": 10,
+  "sha256": "51f501d7f7c8332e8de217d82364777ddbd3d809b5284aab53ddc051ddba50f8",
+  "sigma_rules": [
+   "LTR-0006 m365-bec-inbox-rule"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/mdatp/malicious/mdatp_alerts.json",
+  "format": "mdatp",
+  "format_name": "Microsoft Defender for Endpoint",
+  "category": "EDR",
+  "label": "malicious",
+  "bytes": 1730,
+  "lines": 4,
+  "sha256": "2c05ccfeb9935f9f93d81ce0f23a3ae0c63e06c6f2b841750e675a3cb2ce1a68",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/mysql/malicious/mysql_attack.log",
+  "format": "mysql",
+  "format_name": "MySQL",
+  "category": "Database",
+  "label": "malicious",
+  "bytes": 692,
+  "lines": 12,
+  "sha256": "5289dce26a56747a30b55bc015439b0600a60fc49f9c6395a885c923602db5d5",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/malicious/nginx_credential_stuffing.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "malicious",
+  "bytes": 2613,
+  "lines": 22,
+  "sha256": "b4dd9a9d7e6a7d6692daf63bae5792096a98a28760e49ed9a8d39e69c2b30491",
+  "sigma_rules": [
+   "LTR-0001 nginx-credential-stuffing"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/malicious/nginx_prompt_injection.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "malicious",
+  "bytes": 1757,
+  "lines": 12,
+  "sha256": "ce5efe4923cd4c71372f3305a9df7ffc2baa72995a389276ca02c143be539029",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/malicious/nginx_recon_sweep.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "malicious",
+  "bytes": 1999,
+  "lines": 20,
+  "sha256": "0197e07786968ae7f04c87664692fe4d3d3d06a63d00ca9a611d73f6566b271e",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/nginx/malicious/nginx_sqli_exfiltration.log",
+  "format": "nginx",
+  "format_name": "nginx / Apache Combined",
+  "category": "Web",
+  "label": "malicious",
+  "bytes": 1913,
+  "lines": 13,
+  "sha256": "88763bb845e3b14a4cc80c50805904b54a8d47c7128d0262b81e531150545f87",
+  "sigma_rules": [
+   "LTR-0015 nginx-sqli-data-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/azure-nsg/malicious/nsg_flow_malicious.json",
+  "format": "azure-nsg",
+  "format_name": "Azure NSG Flow Logs",
+  "category": "Cloud Network",
+  "label": "malicious",
+  "bytes": 2662,
+  "lines": 65,
+  "sha256": "e0b8cb3bb7dea8a301933c67eadebec09dbfb19df50f1cf5c8462f148fdd4218",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/okta/malicious/okta_credential_stuffing.json",
+  "format": "okta",
+  "format_name": "Okta System Log",
+  "category": "Identity",
+  "label": "malicious",
+  "bytes": 6527,
+  "lines": 14,
+  "sha256": "8abfaa49aa7a04c9417d7350bf42150f6eee0d4de061a4ce488a77273a54930a",
+  "sigma_rules": [
+   "LTR-0007 okta-credential-stuffing"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/panos/malicious/panos_threat_events.log",
+  "format": "panos",
+  "format_name": "PAN-OS Native CSV",
+  "category": "Firewall",
+  "label": "malicious",
+  "bytes": 1288,
+  "lines": 4,
+  "sha256": "638621d4edbc0a9619644e8cf5e5a4fba7fa2e6149b513e11cf3bce50352c97d",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/postgresql/malicious/postgresql_attack.csv",
+  "format": "postgresql",
+  "format_name": "PostgreSQL",
+  "category": "Database",
+  "label": "malicious",
+  "bytes": 1125,
+  "lines": 5,
+  "sha256": "d46424b1cf484ff9f6997f76e546ff4df78241730f8e6b91d9eac34b2c6c7b4c",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-s3-access/malicious/s3_access_attack.log",
+  "format": "aws-s3-access",
+  "format_name": "AWS S3 Server Access Logs",
+  "category": "Cloud",
+  "label": "malicious",
+  "bytes": 1264,
+  "lines": 3,
+  "sha256": "738f49d4a602537b5112337ae7b496228fee73bd56785b95bb7bcf1229ccf6ca",
+  "sigma_rules": [
+   "LTR-0016 s3-anonymous-access-exfiltration"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/aws-securityhub/malicious/securityhub_findings.json",
+  "format": "aws-securityhub",
+  "format_name": "AWS Security Hub",
+  "category": "Cloud Security",
+  "label": "malicious",
+  "bytes": 1659,
+  "lines": 1,
+  "sha256": "b98892071d0d4aa276ad022effa797c4e2a874cc661df21c132d053e966e450d",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/sentinelone/malicious/sentinelone_threats.json",
+  "format": "sentinelone",
+  "format_name": "SentinelOne",
+  "category": "EDR",
+  "label": "malicious",
+  "bytes": 1996,
+  "lines": 3,
+  "sha256": "9d27299c389a30cf8bee7ad21b6690c98b89847ee4cbef190fc33aa8a12519e2",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/slack-audit/malicious/slack_audit_attack.json",
+  "format": "slack-audit",
+  "format_name": "Slack Audit Log",
+  "category": "SaaS",
+  "label": "malicious",
+  "bytes": 1025,
+  "lines": 1,
+  "sha256": "5318410a5a8da03718263b4afe3f95bd225bf7ea46516d8c0e6b90420cf2c760",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/snort/malicious/snort_intrusion_alerts.log",
+  "format": "snort",
+  "format_name": "Snort",
+  "category": "IDS/IPS",
+  "label": "malicious",
+  "bytes": 1928,
+  "lines": 10,
+  "sha256": "85b4bc32ee3e070e4b2946ef6ac2abb155ec85adcda9a9b54f3371f672513967",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/suricata/malicious/suricata_port_scan.json",
+  "format": "suricata",
+  "format_name": "Suricata",
+  "category": "IDS/IPS",
+  "label": "malicious",
+  "bytes": 3643,
+  "lines": 8,
+  "sha256": "a1f8b5f450047530965554ebeaadeff16db9d258ac7c6cac8e67894221248ef5",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/syslog/malicious/syslog_port_scan.log",
+  "format": "syslog",
+  "format_name": "Syslog (RFC 5424 / 3164)",
+  "category": "Network",
+  "label": "malicious",
+  "bytes": 2536,
+  "lines": 21,
+  "sha256": "c3eada25c71a59c561cb452c3cede90c897ab18f955b580dbffa50763f5315a5",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/sysmon/malicious/sysmon_attack.xml",
+  "format": "sysmon",
+  "format_name": "Sysmon",
+  "category": "Endpoint",
+  "label": "malicious",
+  "bytes": 3210,
+  "lines": 76,
+  "sha256": "d3ac5d9114bcf0a2614fc89e338160a42390d1275a0bab467f552f5c375c1ffd",
+  "sigma_rules": [
+   "LTR-0003 sysmon-lsass-credential-dumping"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/traefik/malicious/traefik_attack.json",
+  "format": "traefik",
+  "format_name": "Traefik",
+  "category": "Network",
+  "label": "malicious",
+  "bytes": 1049,
+  "lines": 4,
+  "sha256": "29ed1c9eb1d378a30152afdbfbc73e582d1b473d860adfb60f4056fd537244b3",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/vpc-flow/malicious/vpc_flow_malicious.log",
+  "format": "vpc-flow",
+  "format_name": "AWS VPC Flow Logs",
+  "category": "Cloud Network",
+  "label": "malicious",
+  "bytes": 1829,
+  "lines": 17,
+  "sha256": "4932d3d1e6d1ecfbbe9a9faa02df8f3ab2fefcbd9f432c5d7ee8e08f7734235a",
+  "sigma_rules": [
+   "LTR-0005 vpc-flow-port-scanning"
+  ],
+  "reference": "https://logtriage.app/reference/log-formats/vpc-flow/"
+ },
+ {
+  "path": "samples/wazuh/malicious/wazuh_brute_force.json",
+  "format": "wazuh",
+  "format_name": "Wazuh",
+  "category": "HIDS",
+  "label": "malicious",
+  "bytes": 3375,
+  "lines": 5,
+  "sha256": "03ab15dcbbce72586f00ba8c7eb747e7974a44c91fb6a87b5f134e3f2baffc38",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/evtx/malicious/windows_brute_force.xml",
+  "format": "evtx",
+  "format_name": "Windows Event Log",
+  "category": "Endpoint",
+  "label": "malicious",
+  "bytes": 8845,
+  "lines": 214,
+  "sha256": "72f206826bf0eda10f9fd03668d7e78f0ed2020a31bfd7f546c049d0c4e42552",
+  "sigma_rules": [
+   "LTR-0012 windows-4625-password-spray"
+  ],
+  "reference": ""
+ },
+ {
+  "path": "samples/zeek/malicious/zeek_http_attack.log",
+  "format": "zeek",
+  "format_name": "Zeek",
+  "category": "IDS/IPS",
+  "label": "malicious",
+  "bytes": 2102,
+  "lines": 16,
+  "sha256": "ee06a8ca6b71b8cc9bfb94188abd11f60a028cc7970983c16e489bcfed8ffbcb",
+  "sigma_rules": [
+   "LTR-0018 zeek-http-web-attack-recon"
+  ],
+  "reference": ""
+ }
+]

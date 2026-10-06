@@ -1,0 +1,5 @@
+01/15-09:00:01.100000  [**] [1:2013028:6] ET POLICY curl User-Agent Outbound [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 203.0.113.10:52100 -> 10.0.0.50:80
+01/15-09:01:00.200000  [**] [1:2025315:1] ET INFO Session Traversal Utilities for NAT [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 203.0.113.11:3478 -> 10.0.0.51:3478
+01/15-09:02:00.300000  [**] [1:2025316:1] ET INFO STUN Binding Request [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 10.0.0.55:54321 -> 198.51.100.1:3478
+01/15-09:05:00.400000  [**] [1:2019284:4] ET INFO TLS ServerHello [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.50:443 -> 203.0.113.10:52200
+01/15-09:10:00.500000  [**] [1:2022082:1] ET INFO DYNAMIC_DNS Query to *.dyndns.org [**] [Classification: Potentially Bad Traffic] [Priority: 3] {UDP} 10.0.0.25:53201 -> 198.51.100.1:53

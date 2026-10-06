@@ -1,0 +1,12 @@
+# Time: 2024-01-15T14:30:01.000000Z
+# User@Host: attacker[attacker] @ attacker.ru [198.51.100.24]
+# Query_time: 12.456  Lock_time: 0.001  Rows_sent: 50000  Rows_examined: 5000000
+SELECT * FROM users WHERE 1=1 UNION SELECT username,password,email,4,5,6,7 FROM admin_users;
+# Time: 2024-01-15T14:31:00.000000Z
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 8.234  Lock_time: 0.002  Rows_sent: 10000  Rows_examined: 1000000
+SELECT * FROM credit_cards LIMIT 10000;
+# Time: 2024-01-15T14:32:00.000000Z
+# User@Host: attacker[attacker] @ attacker.ru [198.51.100.8]
+# Query_time: 15.789  Lock_time: 0.000  Rows_sent: 0  Rows_examined: 0
+DROP TABLE audit_log; DROP TABLE user_sessions;
