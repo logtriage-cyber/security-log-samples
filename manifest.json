@@ -454,9 +454,9 @@
   "format_name": "PAN-OS Native CSV",
   "category": "Firewall",
   "label": "benign",
-  "bytes": 895,
+  "bytes": 1386,
   "lines": 3,
-  "sha256": "4ce3e4c3f533292ce0ad39e677047f5ebc2002bb30beeba9d42215fa0cdc4fe0",
+  "sha256": "ad0b3767f63b5741834e32e45166a4d3c6592fb572be88ccf13605c848a33399",
   "sigma_rules": [],
   "reference": ""
  },
@@ -1154,9 +1154,9 @@
   "format_name": "PAN-OS Native CSV",
   "category": "Firewall",
   "label": "malicious",
-  "bytes": 1288,
+  "bytes": 1981,
   "lines": 4,
-  "sha256": "638621d4edbc0a9619644e8cf5e5a4fba7fa2e6149b513e11cf3bce50352c97d",
+  "sha256": "3a04585ae527c32006d87f4ca2ec5dce03b9cffc0ca19641f20ced5e1d8a108d",
   "sigma_rules": [],
   "reference": ""
  },
