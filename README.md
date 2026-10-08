@@ -39,7 +39,7 @@ manifest.csv    # the same, as CSV
 | Cisco ASA / FTD | Firewall | 1 | 1 |  |
 | Cloudflare Logs | Network & CDN | 1 | 1 |  |
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
-| Duo Security | Identity | 1 | 1 |  |
+| Duo Security | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/duo/) |
 | Elastic Common Schema | SIEM | 1 | 1 |  |
 | F5 BIG-IP ASM | WAF | 1 | 1 |  |
 | FortiGate | Firewall | 1 | 1 |  |
@@ -52,13 +52,13 @@ manifest.csv    # the same, as CSV
 | IIS W3C Extended | Web | 1 | 1 |  |
 | JumpCloud Directory | Identity | 1 | 1 |  |
 | Juniper SRX | Firewall | 1 | 1 |  |
-| Kubernetes Audit Log | Cloud-Native | 1 | 1 |  |
+| Kubernetes Audit Log | Cloud-Native | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/k8s-audit/) |
 | Linux auth.log / secure | Endpoint | 1 | 1 |  |
 | Microsoft 365 Unified Audit Log | SaaS | 1 | 1 |  |
 | Microsoft Defender for Endpoint | EDR | 1 | 1 |  |
 | MySQL | Database | 1 | 1 |  |
 | nginx / Apache Combined | Web | 4 | 2 |  |
-| Okta System Log | Identity | 1 | 1 |  |
+| Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
 | PAN-OS Native CSV | Firewall | 1 | 1 |  |
 | PostgreSQL | Database | 1 | 1 |  |
 | SentinelOne | EDR | 1 | 1 |  |
@@ -66,7 +66,7 @@ manifest.csv    # the same, as CSV
 | Snort | IDS/IPS | 1 | 1 |  |
 | Suricata | IDS/IPS | 1 | 1 |  |
 | Syslog (RFC 5424 / 3164) | Network | 1 | 1 |  |
-| Sysmon | Endpoint | 1 | 1 |  |
+| Sysmon | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sysmon/) |
 | Traefik | Network | 1 | 1 |  |
 | Wazuh | HIDS | 1 | 1 |  |
 | Windows Event Log | Endpoint | 1 | 1 |  |

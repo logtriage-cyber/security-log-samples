@@ -167,7 +167,7 @@
   "sigma_rules": [
    "LTR-0013 duo-mfa-fatigue-bypass"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/duo/"
  },
  {
   "path": "samples/ecs/benign/ecs_normal.json",
@@ -343,7 +343,7 @@
   "sigma_rules": [
    "LTR-0009 k8s-secret-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/k8s-audit/"
  },
  {
   "path": "samples/leef/benign/leef_normal_events.log",
@@ -446,7 +446,7 @@
   "sigma_rules": [
    "LTR-0007 okta-credential-stuffing"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/okta/"
  },
  {
   "path": "samples/panos/benign/panos_normal_traffic.log",
@@ -570,7 +570,7 @@
   "sigma_rules": [
    "LTR-0003 sysmon-lsass-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/sysmon/"
  },
  {
   "path": "samples/traefik/benign/traefik_normal.json",
@@ -842,7 +842,7 @@
   "sigma_rules": [
    "LTR-0013 duo-mfa-fatigue-bypass"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/duo/"
  },
  {
   "path": "samples/ecs/malicious/ecs_attack.json",
@@ -1018,7 +1018,7 @@
   "sigma_rules": [
    "LTR-0009 k8s-secret-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/k8s-audit/"
  },
  {
   "path": "samples/leef/malicious/leef_attack_events.log",
@@ -1146,7 +1146,7 @@
   "sigma_rules": [
    "LTR-0007 okta-credential-stuffing"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/okta/"
  },
  {
   "path": "samples/panos/malicious/panos_threat_events.log",
@@ -1270,7 +1270,7 @@
   "sigma_rules": [
    "LTR-0003 sysmon-lsass-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/sysmon/"
  },
  {
   "path": "samples/traefik/malicious/traefik_attack.json",
