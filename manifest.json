@@ -50,7 +50,9 @@
   "bytes": 2518,
   "lines": 3,
   "sha256": "7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0021 aws-waf-managed-rule-exploit-block"
+  ],
   "reference": ""
  },
  {
@@ -62,7 +64,9 @@
   "bytes": 1249,
   "lines": 1,
   "sha256": "fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0022 azure-activity-privilege-escalation-sabotage"
+  ],
   "reference": ""
  },
  {
@@ -689,7 +693,9 @@
   "bytes": 3913,
   "lines": 4,
   "sha256": "6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0021 aws-waf-managed-rule-exploit-block"
+  ],
   "reference": ""
  },
  {
@@ -701,7 +707,9 @@
   "bytes": 1416,
   "lines": 1,
   "sha256": "da4aca5596c568617883de915e72741640a597bb06f58cd95a1852bf946e7762",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0022 azure-activity-privilege-escalation-sabotage"
+  ],
   "reference": ""
  },
  {

@@ -2,8 +2,8 @@ path,format,format_name,category,label,bytes,lines,sha256,sigma_rules,reference
 samples/aws-alb/benign/alb_normal.log,aws-alb,AWS ALB / ELB,Cloud,benign,1398,3,5fbd33174d6860fdfcb41c881094193cdd7609e5c4cea193c2e46f575c9431d0,LTR-0019 aws-alb-scanner-scripted-access,
 samples/auth-log/benign/authlog_normal.log,auth-log,Linux auth.log / secure,Endpoint,benign,2094,20,d86ee6c369f0de91479ac0e11114fbaf53f87f1f7aee5985ab9f3d16045b20e4,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/benign/aws_config_normal.json,aws-config,AWS Config,Cloud,benign,836,1,bd6cc92725d78a1149729c704b918e134c1e5a085e9289405f11268207540973,LTR-0020 aws-config-security-control-tampering,
-samples/aws-waf/benign/aws_waf_normal.json,aws-waf,AWS WAF,WAF,benign,2518,3,7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe,,
-samples/azure-activity/benign/azure_activity_normal.json,azure-activity,Azure ARM Activity Log,Cloud,benign,1249,1,fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311,,
+samples/aws-waf/benign/aws_waf_normal.json,aws-waf,AWS WAF,WAF,benign,2518,3,7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe,LTR-0021 aws-waf-managed-rule-exploit-block,
+samples/azure-activity/benign/azure_activity_normal.json,azure-activity,Azure ARM Activity Log,Cloud,benign,1249,1,fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311,LTR-0022 azure-activity-privilege-escalation-sabotage,
 samples/azure-ad-signin/benign/azure_normal_corporate.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,benign,5391,94,5c0f0e7aac9c18f35a2ea23e2c8f58d0964eb521614202bfc261b477ca459fe7,LTR-0004 azure-legacy-auth-mfa-bypass,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/carbonblack/benign/carbonblack_normal.json,carbonblack,Carbon Black,EDR,benign,833,3,8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9,,
 samples/cef/benign/cef_firewall_normal.log,cef,CEF (Common Event Format),Network & Firewall,benign,2360,8,5f5aefefa1738e1bd3c9f3d83ddb39333e3b7a2785811d4a9e8e06c31714bf53,,
@@ -52,8 +52,8 @@ samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498
 samples/aws-alb/malicious/alb_attack.log,aws-alb,AWS ALB / ELB,Cloud,malicious,1627,4,9aa2062c221cdf259ddfe4a29551e51e74938db4f985c534ea6790d91400bf80,LTR-0019 aws-alb-scanner-scripted-access,
 samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2586,27,bc7e7f8ccbbe34bf7eb7f0d4f326760128b6ac2424fe07892f1ef1f572508277,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/malicious/aws_config_changes.json,aws-config,AWS Config,Cloud,malicious,1149,1,8b12ffae30f412695a73b4a452ac416094c6861a538f6ee4d83e47c36a8fc755,LTR-0020 aws-config-security-control-tampering,
-samples/aws-waf/malicious/aws_waf_blocked.json,aws-waf,AWS WAF,WAF,malicious,3913,4,6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd,,
-samples/azure-activity/malicious/azure_activity_attack.json,azure-activity,Azure ARM Activity Log,Cloud,malicious,1416,1,da4aca5596c568617883de915e72741640a597bb06f58cd95a1852bf946e7762,,
+samples/aws-waf/malicious/aws_waf_blocked.json,aws-waf,AWS WAF,WAF,malicious,3913,4,6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd,LTR-0021 aws-waf-managed-rule-exploit-block,
+samples/azure-activity/malicious/azure_activity_attack.json,azure-activity,Azure ARM Activity Log,Cloud,malicious,1416,1,da4aca5596c568617883de915e72741640a597bb06f58cd95a1852bf946e7762,LTR-0022 azure-activity-privilege-escalation-sabotage,
 samples/azure-ad-signin/malicious/azure_brute_force.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,malicious,8617,156,2e8a965f46a6ea5b08b136a31f620a9f6cee34c54ed63d7e47464f3615263c2b,,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/azure-ad-signin/malicious/azure_impossible_travel.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,malicious,6688,219,b6b941c7ee3e4367a4864ed7237e7c8e82b2ef8e4d921fed32e371c903330b32,,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/azure-ad-signin/malicious/azure_injection_downgrade.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,malicious,2356,55,a5d8a2c1c88949c511c29ef3207915747cc8c5a3be8a84211c201d1646cd4093,,https://logtriage.app/reference/log-formats/azure-ad-signin/
