@@ -121,7 +121,7 @@
   "lines": 6,
   "sha256": "1efa712708441531cdf2d4f5a234272e5b5b4182ea77eea6875b48287f021e4a",
   "sigma_rules": [
-   "LTR-0025 cisco-asa-threat-prevention-block"
+   "LTR-0025 cisco-asa-botnet-traffic-filter"
   ],
   "reference": ""
  },
@@ -163,7 +163,7 @@
   "lines": 4,
   "sha256": "4ab9bc57995688dc77f4d6f0caba3f1b97aa5948d0a1d12a88483ef38fb23acf",
   "sigma_rules": [
-   "LTR-0026 crowdstrike-cobalt-strike-mimikatz-encoded-powershell"
+   "LTR-0026 crowdstrike-encoded-powershell"
   ],
   "reference": "https://logtriage.app/reference/log-formats/crowdstrike/"
  },
@@ -808,7 +808,7 @@
   "lines": 8,
   "sha256": "ef3025b6d3dadc03c2a35fc5d81c2d13894f11a685efb95950cff5eaff722526",
   "sigma_rules": [
-   "LTR-0025 cisco-asa-threat-prevention-block"
+   "LTR-0025 cisco-asa-botnet-traffic-filter"
   ],
   "reference": ""
  },
@@ -850,7 +850,7 @@
   "lines": 5,
   "sha256": "a1ab467838e0c912102a270c0af0462665227e2c4f95493b030f6058e98eae4c",
   "sigma_rules": [
-   "LTR-0026 crowdstrike-cobalt-strike-mimikatz-encoded-powershell"
+   "LTR-0026 crowdstrike-encoded-powershell"
   ],
   "reference": "https://logtriage.app/reference/log-formats/crowdstrike/"
  },
