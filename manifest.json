@@ -92,7 +92,9 @@
   "bytes": 833,
   "lines": 3,
   "sha256": "8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0023 carbonblack-credential-dumping-encoded-powershell"
+  ],
   "reference": ""
  },
  {
@@ -104,7 +106,9 @@
   "bytes": 2360,
   "lines": 8,
   "sha256": "5f5aefefa1738e1bd3c9f3d83ddb39333e3b7a2785811d4a9e8e06c31714bf53",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0024 cef-firewall-threat-prevention-block"
+  ],
   "reference": ""
  },
  {
@@ -771,7 +775,9 @@
   "bytes": 1341,
   "lines": 4,
   "sha256": "7f7c79d4692839de4a90006232b6137188064e5be40aaae909e7849299b175ab",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0023 carbonblack-credential-dumping-encoded-powershell"
+  ],
   "reference": ""
  },
  {
@@ -783,7 +789,9 @@
   "bytes": 3066,
   "lines": 10,
   "sha256": "26d663787b409009e45dfdcc04ce832e17b45e78497a3f75c9fcc475a432c8b4",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0024 cef-firewall-threat-prevention-block"
+  ],
   "reference": ""
  },
  {
