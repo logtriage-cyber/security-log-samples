@@ -65,7 +65,7 @@
   "lines": 1,
   "sha256": "fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311",
   "sigma_rules": [
-   "LTR-0022 azure-activity-privilege-escalation-sabotage"
+   "LTR-0022 azure-activity-privileged-role-assignment"
   ],
   "reference": ""
  },
@@ -93,7 +93,7 @@
   "lines": 3,
   "sha256": "8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9",
   "sigma_rules": [
-   "LTR-0023 carbonblack-credential-dumping-encoded-powershell"
+   "LTR-0023 carbonblack-mimikatz-credential-dumping"
   ],
   "reference": ""
  },
@@ -103,9 +103,9 @@
   "format_name": "CEF (Common Event Format)",
   "category": "Network & Firewall",
   "label": "benign",
-  "bytes": 2360,
+  "bytes": 1407,
   "lines": 8,
-  "sha256": "5f5aefefa1738e1bd3c9f3d83ddb39333e3b7a2785811d4a9e8e06c31714bf53",
+  "sha256": "81eec10406b997dfcecffff4658ba677c50081012b760a5679f8aef17e8a972a",
   "sigma_rules": [
    "LTR-0024 cef-firewall-threat-prevention-block"
   ],
@@ -173,9 +173,9 @@
   "format_name": "Duo Security",
   "category": "Identity",
   "label": "benign",
-  "bytes": 738,
+  "bytes": 734,
   "lines": 1,
-  "sha256": "c1c2ac1cbf178234ad91397f53e8b5a8777feb4cec774494961ee644970b2870",
+  "sha256": "816adc50c1e2840355ed333eb8a77a98e70404a175d05a2475d140a12bc26350",
   "sigma_rules": [
    "LTR-0013 duo-mfa-fatigue-bypass"
   ],
@@ -684,9 +684,9 @@
   "format_name": "AWS Config",
   "category": "Cloud",
   "label": "malicious",
-  "bytes": 1149,
+  "bytes": 1135,
   "lines": 1,
-  "sha256": "8b12ffae30f412695a73b4a452ac416094c6861a538f6ee4d83e47c36a8fc755",
+  "sha256": "c9c3354c42a1493b3ee66d4d76d052f2c50bcac394568683173d73e4ea65ea38",
   "sigma_rules": [
    "LTR-0020 aws-config-security-control-tampering"
   ],
@@ -712,11 +712,11 @@
   "format_name": "Azure ARM Activity Log",
   "category": "Cloud",
   "label": "malicious",
-  "bytes": 1416,
-  "lines": 1,
-  "sha256": "da4aca5596c568617883de915e72741640a597bb06f58cd95a1852bf946e7762",
+  "bytes": 2681,
+  "lines": 68,
+  "sha256": "e619bb67b616c25037c52735300b6b49d2828a462d88688a6a45dfc4635a71a1",
   "sigma_rules": [
-   "LTR-0022 azure-activity-privilege-escalation-sabotage"
+   "LTR-0022 azure-activity-privileged-role-assignment"
   ],
   "reference": ""
  },
@@ -776,11 +776,11 @@
   "format_name": "Carbon Black",
   "category": "EDR",
   "label": "malicious",
-  "bytes": 1341,
+  "bytes": 1327,
   "lines": 4,
-  "sha256": "7f7c79d4692839de4a90006232b6137188064e5be40aaae909e7849299b175ab",
+  "sha256": "3210619d0ae7fce859928bf0ff7d5961573397ed30488439ee4f4f0893b37508",
   "sigma_rules": [
-   "LTR-0023 carbonblack-credential-dumping-encoded-powershell"
+   "LTR-0023 carbonblack-mimikatz-credential-dumping"
   ],
   "reference": ""
  },
@@ -790,9 +790,9 @@
   "format_name": "CEF (Common Event Format)",
   "category": "Network & Firewall",
   "label": "malicious",
-  "bytes": 3066,
+  "bytes": 2481,
   "lines": 10,
-  "sha256": "26d663787b409009e45dfdcc04ce832e17b45e78497a3f75c9fcc475a432c8b4",
+  "sha256": "7d0741079dd01f25664fea3f9824ca790ef5c0aaedcfa0ed8c12704149e6b5c7",
   "sigma_rules": [
    "LTR-0024 cef-firewall-threat-prevention-block"
   ],
@@ -860,9 +860,9 @@
   "format_name": "Duo Security",
   "category": "Identity",
   "label": "malicious",
-  "bytes": 927,
+  "bytes": 949,
   "lines": 1,
-  "sha256": "423df4a99e580cda5a468c821f66785460a10902444921d2306d52589f985e30",
+  "sha256": "df980d694444ee9c43bb9099c7a5f6fc3b746188f500282334afe0c2cda9b2fe",
   "sigma_rules": [
    "LTR-0013 duo-mfa-fatigue-bypass"
   ],
@@ -910,9 +910,9 @@
   "format_name": "GCP Cloud Audit Log",
   "category": "Cloud",
   "label": "malicious",
-  "bytes": 3966,
+  "bytes": 3958,
   "lines": 8,
-  "sha256": "2cb3b1be8198b416d852ae22ee5fc1edf417b0185fe21869531a09ae97f6c74c",
+  "sha256": "3cd50c7e7a495706ce5b70b852614680c9a51f912f1e7f01f7cc76ac3e4d2a36",
   "sigma_rules": [
    "LTR-0008 gcp-iam-privilege-escalation"
   ],
@@ -950,9 +950,9 @@
   "format_name": "Google Workspace",
   "category": "SaaS",
   "label": "malicious",
-  "bytes": 1188,
+  "bytes": 1214,
   "lines": 1,
-  "sha256": "4679cc35a662ce85b9cd075e54184639dbb89f70d83f7f4123a12a61ea406079",
+  "sha256": "6fb06f78e8955b320e1462b9faa1b964b9736b726f7ebd57e7858dc2f4686e7f",
   "sigma_rules": [
    "LTR-0017 google-workspace-admin-takeover"
   ],
@@ -1138,9 +1138,9 @@
   "format_name": "nginx / Apache Combined",
   "category": "Web",
   "label": "malicious",
-  "bytes": 1913,
+  "bytes": 1939,
   "lines": 13,
-  "sha256": "88763bb845e3b14a4cc80c50805904b54a8d47c7128d0262b81e531150545f87",
+  "sha256": "3451f10cf509dafadb71cde75ff8c31cfa07c1ed77c9b760411008baa44ab46a",
   "sigma_rules": [
    "LTR-0015 nginx-sqli-data-exfiltration"
   ],
@@ -1202,9 +1202,9 @@
   "format_name": "AWS S3 Server Access Logs",
   "category": "Cloud",
   "label": "malicious",
-  "bytes": 1264,
+  "bytes": 1222,
   "lines": 3,
-  "sha256": "738f49d4a602537b5112337ae7b496228fee73bd56785b95bb7bcf1229ccf6ca",
+  "sha256": "3a8afbbf387a0d2aa8c0aaf2acd6876f1e2c3c4101a893d0fc53049620b1b3fe",
   "sigma_rules": [
    "LTR-0016 s3-anonymous-access-exfiltration"
   ],
@@ -1314,9 +1314,9 @@
   "format_name": "AWS VPC Flow Logs",
   "category": "Cloud Network",
   "label": "malicious",
-  "bytes": 1829,
-  "lines": 17,
-  "sha256": "4932d3d1e6d1ecfbbe9a9faa02df8f3ab2fefcbd9f432c5d7ee8e08f7734235a",
+  "bytes": 3101,
+  "lines": 29,
+  "sha256": "769679d6e04f8e479a5944cb509a9a0c4f0e96c993a22ec27ce676bde6968059",
   "sigma_rules": [
    "LTR-0005 vpc-flow-port-scanning"
   ],
@@ -1340,9 +1340,9 @@
   "format_name": "Windows Event Log",
   "category": "Endpoint",
   "label": "malicious",
-  "bytes": 8845,
-  "lines": 214,
-  "sha256": "72f206826bf0eda10f9fd03668d7e78f0ed2020a31bfd7f546c049d0c4e42552",
+  "bytes": 15943,
+  "lines": 382,
+  "sha256": "9505303f9fc4766c74bb3852c984735436c0edb1ab0c7071ed28d5d5123908c4",
   "sigma_rules": [
    "LTR-0012 windows-4625-password-spray"
   ],
@@ -1354,9 +1354,9 @@
   "format_name": "Zeek",
   "category": "IDS/IPS",
   "label": "malicious",
-  "bytes": 2102,
+  "bytes": 2112,
   "lines": 16,
-  "sha256": "ee06a8ca6b71b8cc9bfb94188abd11f60a028cc7970983c16e489bcfed8ffbcb",
+  "sha256": "674c7b65867aa5d5b2263251da0f2e36a6c3892084b3a36447a2b1fcc1a794b6",
   "sigma_rules": [
    "LTR-0018 zeek-http-web-attack-recon"
   ],
