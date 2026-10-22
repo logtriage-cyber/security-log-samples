@@ -556,7 +556,7 @@
   "lines": 6,
   "sha256": "dad819cad7107a08e72803d6f719ebe83c4cee197488bb54aa084801c3117fde",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/suricata/"
  },
  {
   "path": "samples/syslog/benign/syslog_normal.log",
@@ -634,7 +634,7 @@
   "sigma_rules": [
    "LTR-0012 windows-4625-password-spray"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/evtx/"
  },
  {
   "path": "samples/zeek/benign/zeek_normal_http.log",
@@ -648,7 +648,7 @@
   "sigma_rules": [
    "LTR-0018 zeek-http-web-attack-recon"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/zeek/"
  },
  {
   "path": "samples/aws-alb/malicious/alb_attack.log",
@@ -1268,7 +1268,7 @@
   "lines": 8,
   "sha256": "a1f8b5f450047530965554ebeaadeff16db9d258ac7c6cac8e67894221248ef5",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/suricata/"
  },
  {
   "path": "samples/syslog/malicious/syslog_port_scan.log",
@@ -1346,7 +1346,7 @@
   "sigma_rules": [
    "LTR-0012 windows-4625-password-spray"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/evtx/"
  },
  {
   "path": "samples/zeek/malicious/zeek_http_attack.log",
@@ -1360,6 +1360,6 @@
   "sigma_rules": [
    "LTR-0018 zeek-http-web-attack-recon"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/zeek/"
  }
 ]

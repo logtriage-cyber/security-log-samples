@@ -41,14 +41,14 @@ samples/aws-securityhub/benign/securityhub_normal.json,aws-securityhub,AWS Secur
 samples/sentinelone/benign/sentinelone_normal.json,sentinelone,SentinelOne,EDR,benign,1235,2,3ec84f55f1c9214ede898d616bb6e856b24f5751f509deae488702e850cb42f5,,
 samples/slack-audit/benign/slack_audit_normal.json,slack-audit,Slack Audit Log,SaaS,benign,961,1,8cb731cf2fe6bbf44c1aa0a64312d8c0db36e9e68ac2b952c2c339df6b073a0c,,
 samples/snort/benign/snort_normal.log,snort,Snort,IDS/IPS,benign,894,5,7de143c27ed46eb41918efbc75d5dc2e168a750118314622c9b67f0de760fded,,
-samples/suricata/benign/suricata_normal_traffic.json,suricata,Suricata,IDS/IPS,benign,2431,6,dad819cad7107a08e72803d6f719ebe83c4cee197488bb54aa084801c3117fde,,
+samples/suricata/benign/suricata_normal_traffic.json,suricata,Suricata,IDS/IPS,benign,2431,6,dad819cad7107a08e72803d6f719ebe83c4cee197488bb54aa084801c3117fde,,https://logtriage.app/reference/log-formats/suricata/
 samples/syslog/benign/syslog_normal.log,syslog,Syslog (RFC 5424 / 3164),Network,benign,1611,14,3085072ca9707fd2f37cee40f7efe65f86581abd06d3aa670e16d925d6bd060e,,
 samples/sysmon/benign/sysmon_normal.xml,sysmon,Sysmon,Endpoint,benign,2011,47,09b66995796c360575129e749c81a981e533c6fed42ca6a46dbf110240c50c02,LTR-0003 sysmon-lsass-credential-dumping,https://logtriage.app/reference/log-formats/sysmon/
 samples/traefik/benign/traefik_normal.json,traefik,Traefik,Network,benign,921,3,f363a51847ad3fb4448e5d9e3a3412d46c49cdc7a2956db3da7f1c3b1cee533a,,
 samples/vpc-flow/benign/vpc_flow_benign.log,vpc-flow,AWS VPC Flow Logs,Cloud Network,benign,1350,13,12e0505a03ef835092ef3775f6a21c06aff164840d7417d020d3dc172873b127,LTR-0005 vpc-flow-port-scanning,https://logtriage.app/reference/log-formats/vpc-flow/
 samples/wazuh/benign/wazuh_normal.json,wazuh,Wazuh,HIDS,benign,1943,4,135080cd77c62d90244be5f8dc29d911378c1ad529b78fd0c60e04ec1fa21e04,,
-samples/evtx/benign/windows_normal_logons.xml,evtx,Windows Event Log,Endpoint,benign,5484,131,a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107,LTR-0012 windows-4625-password-spray,
-samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc,LTR-0018 zeek-http-web-attack-recon,
+samples/evtx/benign/windows_normal_logons.xml,evtx,Windows Event Log,Endpoint,benign,5484,131,a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107,LTR-0012 windows-4625-password-spray,https://logtriage.app/reference/log-formats/evtx/
+samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc,LTR-0018 zeek-http-web-attack-recon,https://logtriage.app/reference/log-formats/zeek/
 samples/aws-alb/malicious/alb_attack.log,aws-alb,AWS ALB / ELB,Cloud,malicious,1627,4,9aa2062c221cdf259ddfe4a29551e51e74938db4f985c534ea6790d91400bf80,LTR-0019 aws-alb-scanner-scripted-access,
 samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2586,27,bc7e7f8ccbbe34bf7eb7f0d4f326760128b6ac2424fe07892f1ef1f572508277,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/malicious/aws_config_changes.json,aws-config,AWS Config,Cloud,malicious,1135,1,c9c3354c42a1493b3ee66d4d76d052f2c50bcac394568683173d73e4ea65ea38,LTR-0020 aws-config-security-control-tampering,
@@ -96,11 +96,11 @@ samples/aws-securityhub/malicious/securityhub_findings.json,aws-securityhub,AWS 
 samples/sentinelone/malicious/sentinelone_threats.json,sentinelone,SentinelOne,EDR,malicious,1996,3,9d27299c389a30cf8bee7ad21b6690c98b89847ee4cbef190fc33aa8a12519e2,,
 samples/slack-audit/malicious/slack_audit_attack.json,slack-audit,Slack Audit Log,SaaS,malicious,1025,1,5318410a5a8da03718263b4afe3f95bd225bf7ea46516d8c0e6b90420cf2c760,,
 samples/snort/malicious/snort_intrusion_alerts.log,snort,Snort,IDS/IPS,malicious,1928,10,85b4bc32ee3e070e4b2946ef6ac2abb155ec85adcda9a9b54f3371f672513967,,
-samples/suricata/malicious/suricata_port_scan.json,suricata,Suricata,IDS/IPS,malicious,3643,8,a1f8b5f450047530965554ebeaadeff16db9d258ac7c6cac8e67894221248ef5,,
+samples/suricata/malicious/suricata_port_scan.json,suricata,Suricata,IDS/IPS,malicious,3643,8,a1f8b5f450047530965554ebeaadeff16db9d258ac7c6cac8e67894221248ef5,,https://logtriage.app/reference/log-formats/suricata/
 samples/syslog/malicious/syslog_port_scan.log,syslog,Syslog (RFC 5424 / 3164),Network,malicious,2536,21,c3eada25c71a59c561cb452c3cede90c897ab18f955b580dbffa50763f5315a5,,
 samples/sysmon/malicious/sysmon_attack.xml,sysmon,Sysmon,Endpoint,malicious,3210,76,d3ac5d9114bcf0a2614fc89e338160a42390d1275a0bab467f552f5c375c1ffd,LTR-0003 sysmon-lsass-credential-dumping,https://logtriage.app/reference/log-formats/sysmon/
 samples/traefik/malicious/traefik_attack.json,traefik,Traefik,Network,malicious,1049,4,29ed1c9eb1d378a30152afdbfbc73e582d1b473d860adfb60f4056fd537244b3,,
 samples/vpc-flow/malicious/vpc_flow_malicious.log,vpc-flow,AWS VPC Flow Logs,Cloud Network,malicious,3101,29,769679d6e04f8e479a5944cb509a9a0c4f0e96c993a22ec27ce676bde6968059,LTR-0005 vpc-flow-port-scanning,https://logtriage.app/reference/log-formats/vpc-flow/
 samples/wazuh/malicious/wazuh_brute_force.json,wazuh,Wazuh,HIDS,malicious,3375,5,03ab15dcbbce72586f00ba8c7eb747e7974a44c91fb6a87b5f134e3f2baffc38,,
-samples/evtx/malicious/windows_brute_force.xml,evtx,Windows Event Log,Endpoint,malicious,15943,382,9505303f9fc4766c74bb3852c984735436c0edb1ab0c7071ed28d5d5123908c4,LTR-0012 windows-4625-password-spray,
-samples/zeek/malicious/zeek_http_attack.log,zeek,Zeek,IDS/IPS,malicious,2112,16,674c7b65867aa5d5b2263251da0f2e36a6c3892084b3a36447a2b1fcc1a794b6,LTR-0018 zeek-http-web-attack-recon,
+samples/evtx/malicious/windows_brute_force.xml,evtx,Windows Event Log,Endpoint,malicious,15943,382,9505303f9fc4766c74bb3852c984735436c0edb1ab0c7071ed28d5d5123908c4,LTR-0012 windows-4625-password-spray,https://logtriage.app/reference/log-formats/evtx/
+samples/zeek/malicious/zeek_http_attack.log,zeek,Zeek,IDS/IPS,malicious,2112,16,674c7b65867aa5d5b2263251da0f2e36a6c3892084b3a36447a2b1fcc1a794b6,LTR-0018 zeek-http-web-attack-recon,https://logtriage.app/reference/log-formats/zeek/

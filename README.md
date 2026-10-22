@@ -64,13 +64,13 @@ manifest.csv    # the same, as CSV
 | SentinelOne | EDR | 1 | 1 |  |
 | Slack Audit Log | SaaS | 1 | 1 |  |
 | Snort | IDS/IPS | 1 | 1 |  |
-| Suricata | IDS/IPS | 1 | 1 |  |
+| Suricata | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/suricata/) |
 | Syslog (RFC 5424 / 3164) | Network | 1 | 1 |  |
 | Sysmon | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sysmon/) |
 | Traefik | Network | 1 | 1 |  |
 | Wazuh | HIDS | 1 | 1 |  |
-| Windows Event Log | Endpoint | 1 | 1 |  |
-| Zeek | IDS/IPS | 1 | 1 |  |
+| Windows Event Log | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/evtx/) |
+| Zeek | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/zeek/) |
 
 Field-by-field explanations of each format are at
 [logtriage.app/reference/log-formats](https://logtriage.app/reference/log-formats/). To look at a
