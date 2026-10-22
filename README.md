@@ -23,14 +23,14 @@ manifest.csv    # the same, as CSV
 | Format | Category | Malicious | Benign | Field reference |
 |---|---|---|---|---|
 | AWS ALB / ELB | Cloud | 1 | 1 |  |
-| AWS CloudTrail | Cloud | 1 | 1 |  |
+| AWS CloudTrail | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudtrail/) |
 | AWS Config | Cloud | 1 | 1 |  |
 | AWS GuardDuty | Cloud Security | 1 | 1 |  |
 | AWS Inspector v2 | Cloud Security | 1 | 1 |  |
 | AWS S3 Server Access Logs | Cloud | 1 | 1 |  |
 | AWS Security Hub | Cloud Security | 1 | 1 |  |
 | AWS VPC Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/vpc-flow/) |
-| AWS WAF | WAF | 1 | 1 |  |
+| AWS WAF | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-waf/) |
 | Azure AD Sign-In Logs | Identity | 4 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-ad-signin/) |
 | Azure ARM Activity Log | Cloud | 1 | 1 |  |
 | Azure NSG Flow Logs | Cloud Network | 1 | 1 |  |

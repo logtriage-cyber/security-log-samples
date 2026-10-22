@@ -53,7 +53,7 @@
   "sigma_rules": [
    "LTR-0021 aws-waf-managed-rule-exploit-block"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-waf/"
  },
  {
   "path": "samples/azure-activity/benign/azure_activity_normal.json",
@@ -151,7 +151,7 @@
   "sigma_rules": [
    "LTR-0002 cloudtrail-iam-privilege-escalation"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cloudtrail/"
  },
  {
   "path": "samples/crowdstrike/benign/crowdstrike_normal.json",
@@ -704,7 +704,7 @@
   "sigma_rules": [
    "LTR-0021 aws-waf-managed-rule-exploit-block"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-waf/"
  },
  {
   "path": "samples/azure-activity/malicious/azure_activity_attack.json",
@@ -838,7 +838,7 @@
   "sigma_rules": [
    "LTR-0002 cloudtrail-iam-privilege-escalation"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cloudtrail/"
  },
  {
   "path": "samples/crowdstrike/malicious/crowdstrike_detections.json",
