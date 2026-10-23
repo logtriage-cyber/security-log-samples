@@ -14,6 +14,18 @@
   "reference": ""
  },
  {
+  "path": "samples/auditd/benign/auditd_normal.log",
+  "format": "auditd",
+  "format_name": "Linux audit log (auditd)",
+  "category": "Endpoint",
+  "label": "benign",
+  "bytes": 7362,
+  "lines": 30,
+  "sha256": "3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
   "path": "samples/auth-log/benign/authlog_normal.log",
   "format": "auth-log",
   "format_name": "Linux auth.log / secure",
@@ -662,6 +674,18 @@
   "sigma_rules": [
    "LTR-0019 aws-alb-scanner-scripted-access"
   ],
+  "reference": ""
+ },
+ {
+  "path": "samples/auditd/malicious/auditd_ssh_bruteforce.log",
+  "format": "auditd",
+  "format_name": "Linux audit log (auditd)",
+  "category": "Endpoint",
+  "label": "malicious",
+  "bytes": 11174,
+  "lines": 48,
+  "sha256": "036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6",
+  "sigma_rules": [],
   "reference": ""
  },
  {

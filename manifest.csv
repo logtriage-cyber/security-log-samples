@@ -1,5 +1,6 @@
 path,format,format_name,category,label,bytes,lines,sha256,sigma_rules,reference
 samples/aws-alb/benign/alb_normal.log,aws-alb,AWS ALB / ELB,Cloud,benign,1398,3,5fbd33174d6860fdfcb41c881094193cdd7609e5c4cea193c2e46f575c9431d0,LTR-0019 aws-alb-scanner-scripted-access,
+samples/auditd/benign/auditd_normal.log,auditd,Linux audit log (auditd),Endpoint,benign,7362,30,3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578,,
 samples/auth-log/benign/authlog_normal.log,auth-log,Linux auth.log / secure,Endpoint,benign,2094,20,d86ee6c369f0de91479ac0e11114fbaf53f87f1f7aee5985ab9f3d16045b20e4,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/benign/aws_config_normal.json,aws-config,AWS Config,Cloud,benign,836,1,bd6cc92725d78a1149729c704b918e134c1e5a085e9289405f11268207540973,LTR-0020 aws-config-security-control-tampering,
 samples/aws-waf/benign/aws_waf_normal.json,aws-waf,AWS WAF,WAF,benign,2518,3,7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe,LTR-0021 aws-waf-managed-rule-exploit-block,https://logtriage.app/reference/log-formats/aws-waf/
@@ -50,6 +51,7 @@ samples/wazuh/benign/wazuh_normal.json,wazuh,Wazuh,HIDS,benign,1943,4,135080cd77
 samples/evtx/benign/windows_normal_logons.xml,evtx,Windows Event Log,Endpoint,benign,5484,131,a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107,LTR-0012 windows-4625-password-spray,https://logtriage.app/reference/log-formats/evtx/
 samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc,LTR-0018 zeek-http-web-attack-recon,https://logtriage.app/reference/log-formats/zeek/
 samples/aws-alb/malicious/alb_attack.log,aws-alb,AWS ALB / ELB,Cloud,malicious,1627,4,9aa2062c221cdf259ddfe4a29551e51e74938db4f985c534ea6790d91400bf80,LTR-0019 aws-alb-scanner-scripted-access,
+samples/auditd/malicious/auditd_ssh_bruteforce.log,auditd,Linux audit log (auditd),Endpoint,malicious,11174,48,036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6,,
 samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2586,27,bc7e7f8ccbbe34bf7eb7f0d4f326760128b6ac2424fe07892f1ef1f572508277,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/malicious/aws_config_changes.json,aws-config,AWS Config,Cloud,malicious,1135,1,c9c3354c42a1493b3ee66d4d76d052f2c50bcac394568683173d73e4ea65ea38,LTR-0020 aws-config-security-control-tampering,
 samples/aws-waf/malicious/aws_waf_blocked.json,aws-waf,AWS WAF,WAF,malicious,3913,4,6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd,LTR-0021 aws-waf-managed-rule-exploit-block,https://logtriage.app/reference/log-formats/aws-waf/

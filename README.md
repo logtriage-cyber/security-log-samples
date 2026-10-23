@@ -1,7 +1,7 @@
 # Security log samples
 
-Paired **malicious** and **benign** sample logs for 49 security log formats — 105 files
-(55 malicious, 50 benign) — for testing log parsers, detection rules and
+Paired **malicious** and **benign** sample logs for 50 security log formats — 107 files
+(56 malicious, 51 benign) — for testing log parsers, detection rules and
 analytics. Each attack sample has a benign counterpart from the same source, so a rule can be
 checked both ways: it must fire on the first and stay silent on the second.
 
@@ -53,6 +53,7 @@ manifest.csv    # the same, as CSV
 | JumpCloud Directory | Identity | 1 | 1 |  |
 | Juniper SRX | Firewall | 1 | 1 |  |
 | Kubernetes Audit Log | Cloud-Native | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/k8s-audit/) |
+| Linux audit log (auditd) | Endpoint | 1 | 1 |  |
 | Linux auth.log / secure | Endpoint | 1 | 1 |  |
 | Microsoft 365 Unified Audit Log | SaaS | 1 | 1 |  |
 | Microsoft Defender for Endpoint | EDR | 1 | 1 |  |
