@@ -1,6 +1,6 @@
 path,format,format_name,category,label,bytes,lines,sha256,sigma_rules,reference
 samples/aws-alb/benign/alb_normal.log,aws-alb,AWS ALB / ELB,Cloud,benign,1398,3,5fbd33174d6860fdfcb41c881094193cdd7609e5c4cea193c2e46f575c9431d0,LTR-0019 aws-alb-scanner-scripted-access,
-samples/auditd/benign/auditd_normal.log,auditd,Linux audit log (auditd),Endpoint,benign,7362,30,3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578,,
+samples/auditd/benign/auditd_normal.log,auditd,Linux audit log (auditd),Endpoint,benign,7362,30,3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578,LTR-0027 detect-ssh-brute-force-in-linux-auditd-logs,
 samples/auth-log/benign/authlog_normal.log,auth-log,Linux auth.log / secure,Endpoint,benign,2094,20,d86ee6c369f0de91479ac0e11114fbaf53f87f1f7aee5985ab9f3d16045b20e4,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/benign/aws_config_normal.json,aws-config,AWS Config,Cloud,benign,836,1,bd6cc92725d78a1149729c704b918e134c1e5a085e9289405f11268207540973,LTR-0020 aws-config-security-control-tampering,
 samples/aws-waf/benign/aws_waf_normal.json,aws-waf,AWS WAF,WAF,benign,2518,3,7abf99cd11d698777dbd17f2d2c768636dbd4ee57b3043f7175834e3353e6afe,LTR-0021 aws-waf-managed-rule-exploit-block,https://logtriage.app/reference/log-formats/aws-waf/
@@ -13,7 +13,7 @@ samples/cloudflare/benign/cloudflare_normal_traffic.json,cloudflare,Cloudflare L
 samples/cloudtrail/benign/cloudtrail_normal_operations.json,cloudtrail,AWS CloudTrail,Cloud,benign,2540,79,2604aab3b7026f5702eae774d9eb3e000cf52702ef87d30d4a623fcae5d9c54d,LTR-0002 cloudtrail-iam-privilege-escalation,https://logtriage.app/reference/log-formats/cloudtrail/
 samples/crowdstrike/benign/crowdstrike_normal.json,crowdstrike,CrowdStrike Falcon,EDR,benign,994,4,4ab9bc57995688dc77f4d6f0caba3f1b97aa5948d0a1d12a88483ef38fb23acf,LTR-0026 crowdstrike-encoded-powershell,https://logtriage.app/reference/log-formats/crowdstrike/
 samples/duo/benign/duo_normal.json,duo,Duo Security,Identity,benign,734,1,816adc50c1e2840355ed333eb8a77a98e70404a175d05a2475d140a12bc26350,LTR-0013 duo-mfa-fatigue-bypass,https://logtriage.app/reference/log-formats/duo/
-samples/ecs/benign/ecs_normal.json,ecs,Elastic Common Schema,SIEM,benign,1271,3,f858252a6302853727f03864e459504ca4f656a0174c7356bff97a390ca99781,,
+samples/ecs/benign/ecs_normal.json,ecs,Elastic Common Schema,SIEM,benign,1271,3,f858252a6302853727f03864e459504ca4f656a0174c7356bff97a390ca99781,LTR-0028 ltr-0028-ecs-credential-dumping,
 samples/f5-asm/benign/f5_asm_normal.log,f5-asm,F5 BIG-IP ASM,WAF,benign,917,3,8e97c4c2bd6e0e6cd38214b4fca91cecc77cd16ef950765963835abe1225a288,,
 samples/fortigate/benign/fortigate_normal.log,fortigate,FortiGate,Firewall,benign,979,3,332e39b1446c77397af561cbbc7893195dae461e053f6c54803d73c00db46cbf,,
 samples/gcp-audit/benign/gcp_normal_operations.json,gcp-audit,GCP Cloud Audit Log,Cloud,benign,2315,6,6b33c3a35bea0952711efa309c9764f5c5fce3f131e0cab7d12d02d1c492a0d1,LTR-0008 gcp-iam-privilege-escalation,
@@ -51,7 +51,7 @@ samples/wazuh/benign/wazuh_normal.json,wazuh,Wazuh,HIDS,benign,1943,4,135080cd77
 samples/evtx/benign/windows_normal_logons.xml,evtx,Windows Event Log,Endpoint,benign,5484,131,a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107,LTR-0012 windows-4625-password-spray,https://logtriage.app/reference/log-formats/evtx/
 samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc,LTR-0018 zeek-http-web-attack-recon,https://logtriage.app/reference/log-formats/zeek/
 samples/aws-alb/malicious/alb_attack.log,aws-alb,AWS ALB / ELB,Cloud,malicious,1627,4,9aa2062c221cdf259ddfe4a29551e51e74938db4f985c534ea6790d91400bf80,LTR-0019 aws-alb-scanner-scripted-access,
-samples/auditd/malicious/auditd_ssh_bruteforce.log,auditd,Linux audit log (auditd),Endpoint,malicious,11174,48,036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6,,
+samples/auditd/malicious/auditd_ssh_bruteforce.log,auditd,Linux audit log (auditd),Endpoint,malicious,11174,48,036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6,LTR-0027 detect-ssh-brute-force-in-linux-auditd-logs,
 samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2586,27,bc7e7f8ccbbe34bf7eb7f0d4f326760128b6ac2424fe07892f1ef1f572508277,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/malicious/aws_config_changes.json,aws-config,AWS Config,Cloud,malicious,1135,1,c9c3354c42a1493b3ee66d4d76d052f2c50bcac394568683173d73e4ea65ea38,LTR-0020 aws-config-security-control-tampering,
 samples/aws-waf/malicious/aws_waf_blocked.json,aws-waf,AWS WAF,WAF,malicious,3913,4,6b6e2aca786cd4102c3838cc343a71480839d6349f2de35cb02326a3759012bd,LTR-0021 aws-waf-managed-rule-exploit-block,https://logtriage.app/reference/log-formats/aws-waf/
@@ -67,7 +67,7 @@ samples/cloudflare/malicious/cloudflare_waf_attack.json,cloudflare,Cloudflare Lo
 samples/cloudtrail/malicious/cloudtrail_iam_escalation.json,cloudtrail,AWS CloudTrail,Cloud,malicious,4655,134,e664e975d6fd3f019e903b3cbc3f341856ade49dfb174579b1397d98a90c65a1,LTR-0002 cloudtrail-iam-privilege-escalation,https://logtriage.app/reference/log-formats/cloudtrail/
 samples/crowdstrike/malicious/crowdstrike_detections.json,crowdstrike,CrowdStrike Falcon,EDR,malicious,1646,5,a1ab467838e0c912102a270c0af0462665227e2c4f95493b030f6058e98eae4c,LTR-0026 crowdstrike-encoded-powershell,https://logtriage.app/reference/log-formats/crowdstrike/
 samples/duo/malicious/duo_attack.json,duo,Duo Security,Identity,malicious,949,1,df980d694444ee9c43bb9099c7a5f6fc3b746188f500282334afe0c2cda9b2fe,LTR-0013 duo-mfa-fatigue-bypass,https://logtriage.app/reference/log-formats/duo/
-samples/ecs/malicious/ecs_attack.json,ecs,Elastic Common Schema,SIEM,malicious,1881,4,6e47f1bfe9e7fbbe5176382f92c41819c772566620f4d0887b66c0ecb1152dfa,,
+samples/ecs/malicious/ecs_attack.json,ecs,Elastic Common Schema,SIEM,malicious,1881,4,6e47f1bfe9e7fbbe5176382f92c41819c772566620f4d0887b66c0ecb1152dfa,LTR-0028 ltr-0028-ecs-credential-dumping,
 samples/f5-asm/malicious/f5_asm_attacks.log,f5-asm,F5 BIG-IP ASM,WAF,malicious,1533,5,1de32931308c87b5e0212273d4805b315349339351622475d0d54e3ebcafed9a,,
 samples/fortigate/malicious/fortigate_attack.log,fortigate,FortiGate,Firewall,malicious,1661,5,d26299b0a4deb53e772cb5c3e379621e57d1c350a42d56ba78c523b54c87f889,,
 samples/gcp-audit/malicious/gcp_iam_escalation.json,gcp-audit,GCP Cloud Audit Log,Cloud,malicious,3958,8,3cd50c7e7a495706ce5b70b852614680c9a51f912f1e7f01f7cc76ac3e4d2a36,LTR-0008 gcp-iam-privilege-escalation,

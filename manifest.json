@@ -22,7 +22,9 @@
   "bytes": 7362,
   "lines": 30,
   "sha256": "3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0027 detect-ssh-brute-force-in-linux-auditd-logs"
+  ],
   "reference": ""
  },
  {
@@ -202,7 +204,9 @@
   "bytes": 1271,
   "lines": 3,
   "sha256": "f858252a6302853727f03864e459504ca4f656a0174c7356bff97a390ca99781",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0028 ltr-0028-ecs-credential-dumping"
+  ],
   "reference": ""
  },
  {
@@ -685,7 +689,9 @@
   "bytes": 11174,
   "lines": 48,
   "sha256": "036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0027 detect-ssh-brute-force-in-linux-auditd-logs"
+  ],
   "reference": ""
  },
  {
@@ -901,7 +907,9 @@
   "bytes": 1881,
   "lines": 4,
   "sha256": "6e47f1bfe9e7fbbe5176382f92c41819c772566620f4d0887b66c0ecb1152dfa",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0028 ltr-0028-ecs-credential-dumping"
+  ],
   "reference": ""
  },
  {
