@@ -1,7 +1,7 @@
 # Security log samples
 
-Paired **malicious** and **benign** sample logs for 50 security log formats — 107 files
-(56 malicious, 51 benign) — for testing log parsers, detection rules and
+Paired **malicious** and **benign** sample logs for 50 security log formats — 109 files
+(57 malicious, 52 benign) — for testing log parsers, detection rules and
 analytics. Each attack sample has a benign counterpart from the same source, so a rule can be
 checked both ways: it must fire on the first and stay silent on the second.
 
@@ -44,7 +44,7 @@ manifest.csv    # the same, as CSV
 | F5 BIG-IP ASM | WAF | 1 | 1 |  |
 | FortiGate | Firewall | 1 | 1 |  |
 | GCP Cloud Audit Log | Cloud | 1 | 1 |  |
-| Generic CSV | Generic | 1 | 1 |  |
+| Generic CSV | Generic | 2 | 2 |  |
 | GitHub Audit Log | SaaS | 1 | 1 |  |
 | Google Workspace | SaaS | 1 | 1 |  |
 | HAProxy | Network | 1 | 1 |  |

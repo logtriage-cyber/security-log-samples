@@ -260,6 +260,18 @@
   "reference": ""
  },
  {
+  "path": "samples/generic-csv/benign/generic_signups_normal.csv",
+  "format": "generic-csv",
+  "format_name": "Generic CSV",
+  "category": "Generic",
+  "label": "benign",
+  "bytes": 3641,
+  "lines": 41,
+  "sha256": "5959763469e469a8e2cae3934ab40173a4688c289329821089a689709c56071e",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
   "path": "samples/github-audit/benign/github_audit_normal.json",
   "format": "github-audit",
   "format_name": "GitHub Audit Log",
@@ -959,6 +971,18 @@
   "bytes": 1868,
   "lines": 21,
   "sha256": "c7d96670b1c303af3f5077b6aca7dd81de2da58f69c8991a8d71847dd8600f58",
+  "sigma_rules": [],
+  "reference": ""
+ },
+ {
+  "path": "samples/generic-csv/malicious/generic_signup_mailbox_aliases.csv",
+  "format": "generic-csv",
+  "format_name": "Generic CSV",
+  "category": "Generic",
+  "label": "malicious",
+  "bytes": 13066,
+  "lines": 133,
+  "sha256": "e4231852cb43494cf96c51edd7eaca7ac1dbb1829715ee7f149e633fc5b6c3be",
   "sigma_rules": [],
   "reference": ""
  },
