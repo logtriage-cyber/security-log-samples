@@ -173,9 +173,9 @@
   "format_name": "CrowdStrike Falcon",
   "category": "EDR",
   "label": "benign",
-  "bytes": 994,
+  "bytes": 1134,
   "lines": 4,
-  "sha256": "4ab9bc57995688dc77f4d6f0caba3f1b97aa5948d0a1d12a88483ef38fb23acf",
+  "sha256": "55b872a6ce3bc4babd8eb50b8d0792829b38da75902f6f63428bdf538766a0b4",
   "sigma_rules": [
    "LTR-0026 crowdstrike-encoded-powershell"
   ],
@@ -604,9 +604,9 @@
   "format_name": "Sysmon",
   "category": "Endpoint",
   "label": "benign",
-  "bytes": 2011,
+  "bytes": 2012,
   "lines": 47,
-  "sha256": "09b66995796c360575129e749c81a981e533c6fed42ca6a46dbf110240c50c02",
+  "sha256": "72e34d975fb512f73395febcb152250d2c5ece427f80301e35c73ecd0da53bca",
   "sigma_rules": [
    "LTR-0003 sysmon-lsass-credential-dumping"
   ],
@@ -846,9 +846,9 @@
   "format_name": "Cisco ASA / FTD",
   "category": "Firewall",
   "label": "malicious",
-  "bytes": 1320,
+  "bytes": 1321,
   "lines": 8,
-  "sha256": "ef3025b6d3dadc03c2a35fc5d81c2d13894f11a685efb95950cff5eaff722526",
+  "sha256": "307196e3eeeb053b0452ece7add13e5fb30763c555a8786247ac52203442f759",
   "sigma_rules": [
    "LTR-0025 cisco-asa-botnet-traffic-filter"
   ],
@@ -888,9 +888,9 @@
   "format_name": "CrowdStrike Falcon",
   "category": "EDR",
   "label": "malicious",
-  "bytes": 1646,
+  "bytes": 1943,
   "lines": 5,
-  "sha256": "a1ab467838e0c912102a270c0af0462665227e2c4f95493b030f6058e98eae4c",
+  "sha256": "7e947a66028a805340d417e5043e3b526b6e330686aaa82697ce27e3b9780341",
   "sigma_rules": [
    "LTR-0026 crowdstrike-encoded-powershell"
   ],

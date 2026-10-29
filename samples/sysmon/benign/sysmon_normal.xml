@@ -10,7 +10,7 @@
       <Data Name="Image">C:\Program Files\Google\Chrome\Application\chrome.exe</Data>
       <Data Name="CommandLine">chrome.exe --no-first-run</Data>
       <Data Name="User">CORP\alice</Data>
-      <Data Name="Hashes">MD5=D41D8CD98F00B204E9800998ECF8427E,SHA256=e3b0c44298fc1c149afb4c8996fb92427ae41e4649b934ca495991b7852b855</Data>
+      <Data Name="Hashes">MD5=D41D8CD98F00B204E9800998ECF8427E,SHA256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</Data>
       <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
     </EventData>
   </Event>
