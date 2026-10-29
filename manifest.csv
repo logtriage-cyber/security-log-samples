@@ -7,7 +7,7 @@ samples/aws-waf/benign/aws_waf_normal.json,aws-waf,AWS WAF,WAF,benign,2518,3,7ab
 samples/azure-activity/benign/azure_activity_normal.json,azure-activity,Azure ARM Activity Log,Cloud,benign,1249,1,fec3fbb1aa8cd57ab2f1016365462276e022d997fa79feb00d5668eb3ab30311,LTR-0022 azure-activity-privileged-role-assignment,
 samples/azure-ad-signin/benign/azure_normal_corporate.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,benign,5391,94,5c0f0e7aac9c18f35a2ea23e2c8f58d0964eb521614202bfc261b477ca459fe7,LTR-0004 azure-legacy-auth-mfa-bypass,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/carbonblack/benign/carbonblack_normal.json,carbonblack,Carbon Black,EDR,benign,833,3,8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9,LTR-0023 carbonblack-mimikatz-credential-dumping,
-samples/cef/benign/cef_firewall_normal.log,cef,CEF (Common Event Format),Network & Firewall,benign,1407,8,81eec10406b997dfcecffff4658ba677c50081012b760a5679f8aef17e8a972a,LTR-0024 cef-firewall-threat-prevention-block,
+samples/cef/benign/cef_firewall_normal.log,cef,CEF (Common Event Format),Network & Firewall,benign,1407,8,81eec10406b997dfcecffff4658ba677c50081012b760a5679f8aef17e8a972a,LTR-0024 cef-firewall-threat-prevention-block,https://logtriage.app/reference/log-formats/cef/
 samples/cisco-asa/benign/cisco_asa_normal.log,cisco-asa,Cisco ASA / FTD,Firewall,benign,911,6,1efa712708441531cdf2d4f5a234272e5b5b4182ea77eea6875b48287f021e4a,LTR-0025 cisco-asa-botnet-traffic-filter,
 samples/cloudflare/benign/cloudflare_normal_traffic.json,cloudflare,Cloudflare Logs,Network & CDN,benign,2274,6,a94639f1e23f359b5c35c5ec0b537fc135b596d1022ead7e8342b31456d9abc6,LTR-0010 cloudflare-path-traversal-recon,
 samples/cloudtrail/benign/cloudtrail_normal_operations.json,cloudtrail,AWS CloudTrail,Cloud,benign,2540,79,2604aab3b7026f5702eae774d9eb3e000cf52702ef87d30d4a623fcae5d9c54d,LTR-0002 cloudtrail-iam-privilege-escalation,https://logtriage.app/reference/log-formats/cloudtrail/
@@ -28,7 +28,7 @@ samples/aws-inspector/benign/inspector_normal.json,aws-inspector,AWS Inspector v
 samples/jumpcloud/benign/jumpcloud_normal.json,jumpcloud,JumpCloud Directory,Identity,benign,887,1,feff1c9ac9c65c438014dada64253982014440ec175009a4383836e13299a124,,
 samples/juniper-srx/benign/juniper_srx_normal.log,juniper-srx,Juniper SRX,Firewall,benign,779,4,94460cc1b6f14b083912d15501ff03bdf48a7178a49356a53aab1442a07d1eae,,
 samples/k8s-audit/benign/k8s_normal_operations.json,k8s-audit,Kubernetes Audit Log,Cloud-Native,benign,3411,7,4c0db70b59c1ade262b0aad3a8a55c6bb8718d7f90e3d577ca2dbf44a9156c79,LTR-0009 k8s-secret-exfiltration,https://logtriage.app/reference/log-formats/k8s-audit/
-samples/leef/benign/leef_normal_events.log,leef,IBM LEEF,SIEM,benign,1007,4,f89ee951fb67dcaca9978a4f36ed156f21cac587f7107dccaec49779c2fc5acb,,
+samples/leef/benign/leef_normal_events.log,leef,IBM LEEF,SIEM,benign,1007,4,f89ee951fb67dcaca9978a4f36ed156f21cac587f7107dccaec49779c2fc5acb,,https://logtriage.app/reference/log-formats/leef/
 samples/m365/benign/m365_normal_activity.json,m365,Microsoft 365 Unified Audit Log,SaaS,benign,2166,8,900a70adc99b2004c82b7b8a69c9dcc03ec8efaf8ccbdf06f941c5709be33f33,LTR-0006 m365-bec-inbox-rule,
 samples/mdatp/benign/mdatp_normal.json,mdatp,Microsoft Defender for Endpoint,EDR,benign,1053,3,50860b156ef6fbab4b50c27778398ca87566e9613be6f10fe006d60d65824ac0,,
 samples/mysql/benign/mysql_normal.log,mysql,MySQL,Database,benign,737,12,719640b9ace8b9b40fccabdb6f452f1d8700bf644164ef6829821f5fbfd42b25,,
@@ -36,7 +36,7 @@ samples/nginx/benign/nginx_api_developer.log,nginx,nginx / Apache Combined,Web,b
 samples/nginx/benign/nginx_normal_browsing.log,nginx,nginx / Apache Combined,Web,benign,3217,15,efde42b73bb45bd8d63b58f749c07d3a33f157a2d03d0d61301884139d3ed6c1,LTR-0001 nginx-credential-stuffing; LTR-0015 nginx-sqli-data-exfiltration,
 samples/azure-nsg/benign/nsg_flow_benign.json,azure-nsg,Azure NSG Flow Logs,Cloud Network,benign,2358,68,dc85b4c95e35e97802cd10c373a88871d62b64956d7623856a9a3a21a481bd93,,
 samples/okta/benign/okta_normal_logins.json,okta,Okta System Log,Identity,benign,4190,9,dee3b1c5e0ee3b94c20d2c178b7481f55c89be5c0578d0d85d916081448e4a61,LTR-0007 okta-credential-stuffing,https://logtriage.app/reference/log-formats/okta/
-samples/panos/benign/panos_normal_traffic.log,panos,PAN-OS Native CSV,Firewall,benign,1386,3,ad0b3767f63b5741834e32e45166a4d3c6592fb572be88ccf13605c848a33399,,
+samples/panos/benign/panos_normal_traffic.log,panos,PAN-OS Native CSV,Firewall,benign,1386,3,ad0b3767f63b5741834e32e45166a4d3c6592fb572be88ccf13605c848a33399,,https://logtriage.app/reference/log-formats/panos/
 samples/postgresql/benign/postgresql_normal.csv,postgresql,PostgreSQL,Database,benign,941,4,8c2f05849e54d0ab72845cb5b1c86f1512df5e3aa25b423e835a1c10e7b525e5,,
 samples/aws-s3-access/benign/s3_access_normal.log,aws-s3-access,AWS S3 Server Access Logs,Cloud,benign,1200,3,de6b58617e883c3f28c0cc253a69dd32a5175b58c5ae831757acd8af4faa10b1,LTR-0016 s3-anonymous-access-exfiltration,
 samples/aws-securityhub/benign/securityhub_normal.json,aws-securityhub,AWS Security Hub,Cloud Security,benign,1595,1,54ce108ce237893cced5d02b46dbb194c592c31d4b49eb9b74d789eeb9262a38,,
@@ -62,7 +62,7 @@ samples/azure-ad-signin/malicious/azure_impossible_travel.json,azure-ad-signin,A
 samples/azure-ad-signin/malicious/azure_injection_downgrade.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,malicious,2356,55,a5d8a2c1c88949c511c29ef3207915747cc8c5a3be8a84211c201d1646cd4093,,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/azure-ad-signin/malicious/azure_mfa_bypass.json,azure-ad-signin,Azure AD Sign-In Logs,Identity,malicious,5250,94,ec32516106e9ac72e3b8a2915f9c8525ba72696b60bf8fe94a5d41ba801f8e5b,LTR-0004 azure-legacy-auth-mfa-bypass,https://logtriage.app/reference/log-formats/azure-ad-signin/
 samples/carbonblack/malicious/carbonblack_attack.json,carbonblack,Carbon Black,EDR,malicious,1327,4,3210619d0ae7fce859928bf0ff7d5961573397ed30488439ee4f4f0893b37508,LTR-0023 carbonblack-mimikatz-credential-dumping,
-samples/cef/malicious/cef_firewall_attack.log,cef,CEF (Common Event Format),Network & Firewall,malicious,2481,10,7d0741079dd01f25664fea3f9824ca790ef5c0aaedcfa0ed8c12704149e6b5c7,LTR-0024 cef-firewall-threat-prevention-block,
+samples/cef/malicious/cef_firewall_attack.log,cef,CEF (Common Event Format),Network & Firewall,malicious,2481,10,7d0741079dd01f25664fea3f9824ca790ef5c0aaedcfa0ed8c12704149e6b5c7,LTR-0024 cef-firewall-threat-prevention-block,https://logtriage.app/reference/log-formats/cef/
 samples/cisco-asa/malicious/cisco_asa_attack.log,cisco-asa,Cisco ASA / FTD,Firewall,malicious,1321,8,307196e3eeeb053b0452ece7add13e5fb30763c555a8786247ac52203442f759,LTR-0025 cisco-asa-botnet-traffic-filter,
 samples/cloudflare/malicious/cloudflare_waf_attack.json,cloudflare,Cloudflare Logs,Network & CDN,malicious,3677,10,26087fc6daafb8d2410f9cb02cfdab0dc5b4af1f12d2ab608f4eb92da8c2b25e,LTR-0010 cloudflare-path-traversal-recon,
 samples/cloudtrail/malicious/cloudtrail_iam_escalation.json,cloudtrail,AWS CloudTrail,Cloud,malicious,4655,134,e664e975d6fd3f019e903b3cbc3f341856ade49dfb174579b1397d98a90c65a1,LTR-0002 cloudtrail-iam-privilege-escalation,https://logtriage.app/reference/log-formats/cloudtrail/
@@ -83,7 +83,7 @@ samples/aws-inspector/malicious/inspector_findings.json,aws-inspector,AWS Inspec
 samples/jumpcloud/malicious/jumpcloud_attack.json,jumpcloud,JumpCloud Directory,Identity,malicious,1030,1,0f101d6b70e2526a0d67b17b726e9e346551a4d894630deff7296d93d8febb41,,
 samples/juniper-srx/malicious/juniper_srx_attack.log,juniper-srx,Juniper SRX,Firewall,malicious,1196,6,ea670a59132d7e418c4b6aa6ac62f1c10c95e863a793543ee25e8e9485933857,,
 samples/k8s-audit/malicious/k8s_exec_secret_exfil.json,k8s-audit,Kubernetes Audit Log,Cloud-Native,malicious,4965,9,30eb33a098818c808432d7d7b0bf1e96a30bec5f17feba9033720b0fa6561849,LTR-0009 k8s-secret-exfiltration,https://logtriage.app/reference/log-formats/k8s-audit/
-samples/leef/malicious/leef_attack_events.log,leef,IBM LEEF,SIEM,malicious,1278,5,012d1b97fd947fb2e7e43f0cdc0bde5be58e920a582bddbb49bc2ff4ac5d2bd0,,
+samples/leef/malicious/leef_attack_events.log,leef,IBM LEEF,SIEM,malicious,1278,5,012d1b97fd947fb2e7e43f0cdc0bde5be58e920a582bddbb49bc2ff4ac5d2bd0,,https://logtriage.app/reference/log-formats/leef/
 samples/m365/malicious/m365_bec_data_exfil.json,m365,Microsoft 365 Unified Audit Log,SaaS,malicious,3445,10,51f501d7f7c8332e8de217d82364777ddbd3d809b5284aab53ddc051ddba50f8,LTR-0006 m365-bec-inbox-rule,
 samples/mdatp/malicious/mdatp_alerts.json,mdatp,Microsoft Defender for Endpoint,EDR,malicious,1730,4,2c05ccfeb9935f9f93d81ce0f23a3ae0c63e06c6f2b841750e675a3cb2ce1a68,,
 samples/mysql/malicious/mysql_attack.log,mysql,MySQL,Database,malicious,692,12,5289dce26a56747a30b55bc015439b0600a60fc49f9c6395a885c923602db5d5,,
@@ -93,7 +93,7 @@ samples/nginx/malicious/nginx_recon_sweep.log,nginx,nginx / Apache Combined,Web,
 samples/nginx/malicious/nginx_sqli_exfiltration.log,nginx,nginx / Apache Combined,Web,malicious,1939,13,3451f10cf509dafadb71cde75ff8c31cfa07c1ed77c9b760411008baa44ab46a,LTR-0015 nginx-sqli-data-exfiltration,
 samples/azure-nsg/malicious/nsg_flow_malicious.json,azure-nsg,Azure NSG Flow Logs,Cloud Network,malicious,2662,65,e0b8cb3bb7dea8a301933c67eadebec09dbfb19df50f1cf5c8462f148fdd4218,,
 samples/okta/malicious/okta_credential_stuffing.json,okta,Okta System Log,Identity,malicious,6527,14,8abfaa49aa7a04c9417d7350bf42150f6eee0d4de061a4ce488a77273a54930a,LTR-0007 okta-credential-stuffing,https://logtriage.app/reference/log-formats/okta/
-samples/panos/malicious/panos_threat_events.log,panos,PAN-OS Native CSV,Firewall,malicious,1981,4,3a04585ae527c32006d87f4ca2ec5dce03b9cffc0ca19641f20ced5e1d8a108d,,
+samples/panos/malicious/panos_threat_events.log,panos,PAN-OS Native CSV,Firewall,malicious,1981,4,3a04585ae527c32006d87f4ca2ec5dce03b9cffc0ca19641f20ced5e1d8a108d,,https://logtriage.app/reference/log-formats/panos/
 samples/postgresql/malicious/postgresql_attack.csv,postgresql,PostgreSQL,Database,malicious,1125,5,d46424b1cf484ff9f6997f76e546ff4df78241730f8e6b91d9eac34b2c6c7b4c,,
 samples/aws-s3-access/malicious/s3_access_attack.log,aws-s3-access,AWS S3 Server Access Logs,Cloud,malicious,1222,3,3a8afbbf387a0d2aa8c0aaf2acd6876f1e2c3c4101a893d0fc53049620b1b3fe,LTR-0016 s3-anonymous-access-exfiltration,
 samples/aws-securityhub/malicious/securityhub_findings.json,aws-securityhub,AWS Security Hub,Cloud Security,malicious,1659,1,b98892071d0d4aa276ad022effa797c4e2a874cc661df21c132d053e966e450d,,

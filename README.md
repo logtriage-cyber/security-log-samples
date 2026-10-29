@@ -35,7 +35,7 @@ manifest.csv    # the same, as CSV
 | Azure ARM Activity Log | Cloud | 1 | 1 |  |
 | Azure NSG Flow Logs | Cloud Network | 1 | 1 |  |
 | Carbon Black | EDR | 1 | 1 |  |
-| CEF (Common Event Format) | Network & Firewall | 1 | 1 |  |
+| CEF (Common Event Format) | Network & Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cef/) |
 | Cisco ASA / FTD | Firewall | 1 | 1 |  |
 | Cloudflare Logs | Network & CDN | 1 | 1 |  |
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
@@ -48,7 +48,7 @@ manifest.csv    # the same, as CSV
 | GitHub Audit Log | SaaS | 1 | 1 |  |
 | Google Workspace | SaaS | 1 | 1 |  |
 | HAProxy | Network | 1 | 1 |  |
-| IBM LEEF | SIEM | 1 | 1 |  |
+| IBM LEEF | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/leef/) |
 | IIS W3C Extended | Web | 1 | 1 |  |
 | JumpCloud Directory | Identity | 1 | 1 |  |
 | Juniper SRX | Firewall | 1 | 1 |  |
@@ -60,7 +60,7 @@ manifest.csv    # the same, as CSV
 | MySQL | Database | 1 | 1 |  |
 | nginx / Apache Combined | Web | 4 | 2 |  |
 | Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
-| PAN-OS Native CSV | Firewall | 1 | 1 |  |
+| PAN-OS Native CSV | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/panos/) |
 | PostgreSQL | Database | 1 | 1 |  |
 | SentinelOne | EDR | 1 | 1 |  |
 | Slack Audit Log | SaaS | 1 | 1 |  |

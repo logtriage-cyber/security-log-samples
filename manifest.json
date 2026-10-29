@@ -123,7 +123,7 @@
   "sigma_rules": [
    "LTR-0024 cef-firewall-threat-prevention-block"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cef/"
  },
  {
   "path": "samples/cisco-asa/benign/cisco_asa_normal.log",
@@ -395,7 +395,7 @@
   "lines": 4,
   "sha256": "f89ee951fb67dcaca9978a4f36ed156f21cac587f7107dccaec49779c2fc5acb",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/leef/"
  },
  {
   "path": "samples/m365/benign/m365_normal_activity.json",
@@ -498,7 +498,7 @@
   "lines": 3,
   "sha256": "ad0b3767f63b5741834e32e45166a4d3c6592fb572be88ccf13605c848a33399",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/panos/"
  },
  {
   "path": "samples/postgresql/benign/postgresql_normal.csv",
@@ -838,7 +838,7 @@
   "sigma_rules": [
    "LTR-0024 cef-firewall-threat-prevention-block"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cef/"
  },
  {
   "path": "samples/cisco-asa/malicious/cisco_asa_attack.log",
@@ -1110,7 +1110,7 @@
   "lines": 5,
   "sha256": "012d1b97fd947fb2e7e43f0cdc0bde5be58e920a582bddbb49bc2ff4ac5d2bd0",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/leef/"
  },
  {
   "path": "samples/m365/malicious/m365_bec_data_exfil.json",
@@ -1238,7 +1238,7 @@
   "lines": 4,
   "sha256": "3a04585ae527c32006d87f4ca2ec5dce03b9cffc0ca19641f20ced5e1d8a108d",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/panos/"
  },
  {
   "path": "samples/postgresql/malicious/postgresql_attack.csv",
