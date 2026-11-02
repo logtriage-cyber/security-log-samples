@@ -14,8 +14,8 @@ samples/cloudtrail/benign/cloudtrail_normal_operations.json,cloudtrail,AWS Cloud
 samples/crowdstrike/benign/crowdstrike_normal.json,crowdstrike,CrowdStrike Falcon,EDR,benign,1134,4,55b872a6ce3bc4babd8eb50b8d0792829b38da75902f6f63428bdf538766a0b4,LTR-0026 crowdstrike-encoded-powershell,https://logtriage.app/reference/log-formats/crowdstrike/
 samples/duo/benign/duo_normal.json,duo,Duo Security,Identity,benign,734,1,816adc50c1e2840355ed333eb8a77a98e70404a175d05a2475d140a12bc26350,LTR-0013 duo-mfa-fatigue-bypass,https://logtriage.app/reference/log-formats/duo/
 samples/ecs/benign/ecs_normal.json,ecs,Elastic Common Schema,SIEM,benign,1271,3,f858252a6302853727f03864e459504ca4f656a0174c7356bff97a390ca99781,LTR-0028 ecs-mimikatz-credential-dumping,
-samples/f5-asm/benign/f5_asm_normal.log,f5-asm,F5 BIG-IP ASM,WAF,benign,917,3,8e97c4c2bd6e0e6cd38214b4fca91cecc77cd16ef950765963835abe1225a288,,
-samples/fortigate/benign/fortigate_normal.log,fortigate,FortiGate,Firewall,benign,979,3,332e39b1446c77397af561cbbc7893195dae461e053f6c54803d73c00db46cbf,,
+samples/f5-asm/benign/f5_asm_normal.log,f5-asm,F5 BIG-IP ASM,WAF,benign,917,3,8e97c4c2bd6e0e6cd38214b4fca91cecc77cd16ef950765963835abe1225a288,LTR-0029 f5-asm-blocked-high-severity-attacks,
+samples/fortigate/benign/fortigate_normal.log,fortigate,FortiGate,Firewall,benign,979,3,332e39b1446c77397af561cbbc7893195dae461e053f6c54803d73c00db46cbf,LTR-0030 fortigate-utm-ips-virus-block,
 samples/gcp-audit/benign/gcp_normal_operations.json,gcp-audit,GCP Cloud Audit Log,Cloud,benign,2315,6,6b33c3a35bea0952711efa309c9764f5c5fce3f131e0cab7d12d02d1c492a0d1,LTR-0008 gcp-iam-privilege-escalation,
 samples/generic-csv/benign/generic_normal_api.csv,generic-csv,Generic CSV,Generic,benign,1550,13,588591054145dc884ef56ab64ae061955699192ac84d111b42100e3bbfd06845,,
 samples/generic-csv/benign/generic_signups_normal.csv,generic-csv,Generic CSV,Generic,benign,3641,41,5959763469e469a8e2cae3934ab40173a4688c289329821089a689709c56071e,,
@@ -69,8 +69,8 @@ samples/cloudtrail/malicious/cloudtrail_iam_escalation.json,cloudtrail,AWS Cloud
 samples/crowdstrike/malicious/crowdstrike_detections.json,crowdstrike,CrowdStrike Falcon,EDR,malicious,1943,5,7e947a66028a805340d417e5043e3b526b6e330686aaa82697ce27e3b9780341,LTR-0026 crowdstrike-encoded-powershell,https://logtriage.app/reference/log-formats/crowdstrike/
 samples/duo/malicious/duo_attack.json,duo,Duo Security,Identity,malicious,949,1,df980d694444ee9c43bb9099c7a5f6fc3b746188f500282334afe0c2cda9b2fe,LTR-0013 duo-mfa-fatigue-bypass,https://logtriage.app/reference/log-formats/duo/
 samples/ecs/malicious/ecs_attack.json,ecs,Elastic Common Schema,SIEM,malicious,1881,4,6e47f1bfe9e7fbbe5176382f92c41819c772566620f4d0887b66c0ecb1152dfa,LTR-0028 ecs-mimikatz-credential-dumping,
-samples/f5-asm/malicious/f5_asm_attacks.log,f5-asm,F5 BIG-IP ASM,WAF,malicious,1533,5,1de32931308c87b5e0212273d4805b315349339351622475d0d54e3ebcafed9a,,
-samples/fortigate/malicious/fortigate_attack.log,fortigate,FortiGate,Firewall,malicious,1661,5,d26299b0a4deb53e772cb5c3e379621e57d1c350a42d56ba78c523b54c87f889,,
+samples/f5-asm/malicious/f5_asm_attacks.log,f5-asm,F5 BIG-IP ASM,WAF,malicious,1533,5,1de32931308c87b5e0212273d4805b315349339351622475d0d54e3ebcafed9a,LTR-0029 f5-asm-blocked-high-severity-attacks,
+samples/fortigate/malicious/fortigate_attack.log,fortigate,FortiGate,Firewall,malicious,1661,5,d26299b0a4deb53e772cb5c3e379621e57d1c350a42d56ba78c523b54c87f889,LTR-0030 fortigate-utm-ips-virus-block,
 samples/gcp-audit/malicious/gcp_iam_escalation.json,gcp-audit,GCP Cloud Audit Log,Cloud,malicious,3958,8,3cd50c7e7a495706ce5b70b852614680c9a51f912f1e7f01f7cc76ac3e4d2a36,LTR-0008 gcp-iam-privilege-escalation,
 samples/generic-csv/malicious/generic_api_scraper.csv,generic-csv,Generic CSV,Generic,malicious,1868,21,c7d96670b1c303af3f5077b6aca7dd81de2da58f69c8991a8d71847dd8600f58,,
 samples/generic-csv/malicious/generic_signup_mailbox_aliases.csv,generic-csv,Generic CSV,Generic,malicious,13066,133,e4231852cb43494cf96c51edd7eaca7ac1dbb1829715ee7f149e633fc5b6c3be,,

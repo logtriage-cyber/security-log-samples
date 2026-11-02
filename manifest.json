@@ -218,7 +218,9 @@
   "bytes": 917,
   "lines": 3,
   "sha256": "8e97c4c2bd6e0e6cd38214b4fca91cecc77cd16ef950765963835abe1225a288",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0029 f5-asm-blocked-high-severity-attacks"
+  ],
   "reference": ""
  },
  {
@@ -230,7 +232,9 @@
   "bytes": 979,
   "lines": 3,
   "sha256": "332e39b1446c77397af561cbbc7893195dae461e053f6c54803d73c00db46cbf",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0030 fortigate-utm-ips-virus-block"
+  ],
   "reference": ""
  },
  {
@@ -933,7 +937,9 @@
   "bytes": 1533,
   "lines": 5,
   "sha256": "1de32931308c87b5e0212273d4805b315349339351622475d0d54e3ebcafed9a",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0029 f5-asm-blocked-high-severity-attacks"
+  ],
   "reference": ""
  },
  {
@@ -945,7 +951,9 @@
   "bytes": 1661,
   "lines": 5,
   "sha256": "d26299b0a4deb53e772cb5c3e379621e57d1c350a42d56ba78c523b54c87f889",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0030 fortigate-utm-ips-virus-block"
+  ],
   "reference": ""
  },
  {
