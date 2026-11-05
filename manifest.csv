@@ -46,7 +46,7 @@ samples/sentinelone/benign/sentinelone_normal.json,sentinelone,SentinelOne,EDR,b
 samples/slack-audit/benign/slack_audit_normal.json,slack-audit,Slack Audit Log,SaaS,benign,961,1,8cb731cf2fe6bbf44c1aa0a64312d8c0db36e9e68ac2b952c2c339df6b073a0c,,
 samples/snort/benign/snort_normal.log,snort,Snort,IDS/IPS,benign,894,5,7de143c27ed46eb41918efbc75d5dc2e168a750118314622c9b67f0de760fded,,
 samples/suricata/benign/suricata_normal_traffic.json,suricata,Suricata,IDS/IPS,benign,2431,6,dad819cad7107a08e72803d6f719ebe83c4cee197488bb54aa084801c3117fde,,https://logtriage.app/reference/log-formats/suricata/
-samples/syslog/benign/syslog_normal.log,syslog,Syslog (RFC 5424 / 3164),Network,benign,1611,14,3085072ca9707fd2f37cee40f7efe65f86581abd06d3aa670e16d925d6bd060e,,
+samples/syslog/benign/syslog_normal.log,syslog,Syslog (RFC 5424 / 3164),Network,benign,1611,14,3085072ca9707fd2f37cee40f7efe65f86581abd06d3aa670e16d925d6bd060e,,https://logtriage.app/reference/log-formats/syslog/
 samples/sysmon/benign/sysmon_normal.xml,sysmon,Sysmon,Endpoint,benign,2012,47,72e34d975fb512f73395febcb152250d2c5ece427f80301e35c73ecd0da53bca,LTR-0003 sysmon-lsass-credential-dumping,https://logtriage.app/reference/log-formats/sysmon/
 samples/traefik/benign/traefik_normal.json,traefik,Traefik,Network,benign,921,3,f363a51847ad3fb4448e5d9e3a3412d46c49cdc7a2956db3da7f1c3b1cee533a,,
 samples/vpc-flow/benign/vpc_flow_benign.log,vpc-flow,AWS VPC Flow Logs,Cloud Network,benign,1350,13,12e0505a03ef835092ef3775f6a21c06aff164840d7417d020d3dc172873b127,LTR-0005 vpc-flow-port-scanning,https://logtriage.app/reference/log-formats/vpc-flow/
@@ -105,7 +105,7 @@ samples/sentinelone/malicious/sentinelone_threats.json,sentinelone,SentinelOne,E
 samples/slack-audit/malicious/slack_audit_attack.json,slack-audit,Slack Audit Log,SaaS,malicious,1025,1,a3e1fb25ae3851c3eb92c4d2f1cd83e535539ea58abf65af709ad25a6f09cd39,,
 samples/snort/malicious/snort_intrusion_alerts.log,snort,Snort,IDS/IPS,malicious,1928,10,e5707072825c69f8e2aa9fef6cc1cb348792ac3e9b24c2c361d9e0b951ec05b0,,
 samples/suricata/malicious/suricata_port_scan.json,suricata,Suricata,IDS/IPS,malicious,3643,8,afd45d68fad276c3f51b7e36b347dcad8242197313506bc3f57128d04e8fcb8f,,https://logtriage.app/reference/log-formats/suricata/
-samples/syslog/malicious/syslog_port_scan.log,syslog,Syslog (RFC 5424 / 3164),Network,malicious,2536,21,c68cd5e7e3e19385939d1ab7bd526a1f5e4941f709d126d3504fbe7c41bdaab9,,
+samples/syslog/malicious/syslog_port_scan.log,syslog,Syslog (RFC 5424 / 3164),Network,malicious,2536,21,c68cd5e7e3e19385939d1ab7bd526a1f5e4941f709d126d3504fbe7c41bdaab9,,https://logtriage.app/reference/log-formats/syslog/
 samples/sysmon/malicious/sysmon_attack.xml,sysmon,Sysmon,Endpoint,malicious,3210,76,81e92da0cfcfbaed67ad8b2d68230983a32d0100485abfdbeffc051d91e9d049,LTR-0003 sysmon-lsass-credential-dumping,https://logtriage.app/reference/log-formats/sysmon/
 samples/traefik/malicious/traefik_attack.json,traefik,Traefik,Network,malicious,1049,4,2ae2a5ab7ddc73375ac9ef5c1e6ba2d142f5c6d88cf23e6f88a258de726e0746,,
 samples/vpc-flow/malicious/vpc_flow_malicious.log,vpc-flow,AWS VPC Flow Logs,Cloud Network,malicious,3101,29,93af1f307deae25147eae261c342e296040411207c4e8192a1c3387d0276f4b5,LTR-0005 vpc-flow-port-scanning,https://logtriage.app/reference/log-formats/vpc-flow/

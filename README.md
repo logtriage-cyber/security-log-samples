@@ -67,7 +67,7 @@ manifest.csv    # the same, as CSV
 | Slack Audit Log | SaaS | 1 | 1 |  |
 | Snort | IDS/IPS | 1 | 1 |  |
 | Suricata | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/suricata/) |
-| Syslog (RFC 5424 / 3164) | Network | 1 | 1 |  |
+| Syslog (RFC 5424 / 3164) | Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/syslog/) |
 | Sysmon | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sysmon/) |
 | Traefik | Network | 1 | 1 |  |
 | Wazuh | HIDS | 1 | 1 |  |

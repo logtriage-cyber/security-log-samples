@@ -624,7 +624,7 @@
   "lines": 14,
   "sha256": "3085072ca9707fd2f37cee40f7efe65f86581abd06d3aa670e16d925d6bd060e",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/syslog/"
  },
  {
   "path": "samples/sysmon/benign/sysmon_normal.xml",
@@ -1392,7 +1392,7 @@
   "lines": 21,
   "sha256": "c68cd5e7e3e19385939d1ab7bd526a1f5e4941f709d126d3504fbe7c41bdaab9",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/syslog/"
  },
  {
   "path": "samples/sysmon/malicious/sysmon_attack.xml",
