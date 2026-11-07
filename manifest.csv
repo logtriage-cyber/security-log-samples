@@ -1,6 +1,6 @@
 path,format,format_name,category,label,bytes,lines,sha256,sigma_rules,reference
 samples/aws-alb/benign/alb_normal.log,aws-alb,AWS ALB / ELB,Cloud,benign,1398,3,5fbd33174d6860fdfcb41c881094193cdd7609e5c4cea193c2e46f575c9431d0,LTR-0019 aws-alb-scanner-scripted-access,
-samples/other/benign/apache_error_normal.log,other,Other,,benign,2033,10,14d1b3f2fb8b6c7d1808145452349d4d4ff671e7f4e537b24777e5b0c27bfa2d,,
+samples/apache-error/benign/apache_error_normal.log,apache-error,Apache HTTP Server error log,Web,benign,2033,10,14d1b3f2fb8b6c7d1808145452349d4d4ff671e7f4e537b24777e5b0c27bfa2d,,
 samples/auditd/benign/auditd_normal.log,auditd,Linux audit log (auditd),Endpoint,benign,7362,30,3c8ba70a3df5a6b7a057ee34f38f665adf0e9f89adb3d70224800ffc29645578,LTR-0027 auditd-ssh-brute-force,
 samples/auth-log/benign/authlog_normal.log,auth-log,Linux auth.log / secure,Endpoint,benign,2094,20,d86ee6c369f0de91479ac0e11114fbaf53f87f1f7aee5985ab9f3d16045b20e4,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/benign/aws_config_normal.json,aws-config,AWS Config,Cloud,benign,836,1,bd6cc92725d78a1149729c704b918e134c1e5a085e9289405f11268207540973,LTR-0020 aws-config-security-control-tampering,
@@ -34,7 +34,7 @@ samples/m365/benign/m365_normal_activity.json,m365,Microsoft 365 Unified Audit L
 samples/mdatp/benign/mdatp_normal.json,mdatp,Microsoft Defender for Endpoint,EDR,benign,1053,3,50860b156ef6fbab4b50c27778398ca87566e9613be6f10fe006d60d65824ac0,,
 samples/mysql/benign/mysql_normal.log,mysql,MySQL,Database,benign,737,12,719640b9ace8b9b40fccabdb6f452f1d8700bf644164ef6829821f5fbfd42b25,,
 samples/nginx/benign/nginx_api_developer.log,nginx,nginx / Apache Combined,Web,benign,1810,15,d36f80ecf797e7e32ba418ff7fc682d899d669a3929fc9916ccc78b2b09bf6fc,,
-samples/nginx/benign/nginx_error_normal.log,nginx,nginx / Apache Combined,Web,benign,1641,10,e7914b4ea0ab206154ef445307097112e5ced2147f82e652b67fed9f909d511b,,
+samples/nginx-error/benign/nginx_error_normal.log,nginx-error,nginx error log,Web,benign,1641,10,e7914b4ea0ab206154ef445307097112e5ced2147f82e652b67fed9f909d511b,,
 samples/nginx/benign/nginx_normal_browsing.log,nginx,nginx / Apache Combined,Web,benign,3217,15,efde42b73bb45bd8d63b58f749c07d3a33f157a2d03d0d61301884139d3ed6c1,LTR-0001 nginx-credential-stuffing; LTR-0015 nginx-sqli-data-exfiltration,
 samples/azure-nsg/benign/nsg_flow_benign.json,azure-nsg,Azure NSG Flow Logs,Cloud Network,benign,2358,68,dc85b4c95e35e97802cd10c373a88871d62b64956d7623856a9a3a21a481bd93,,
 samples/okta/benign/okta_normal_logins.json,okta,Okta System Log,Identity,benign,4190,9,dee3b1c5e0ee3b94c20d2c178b7481f55c89be5c0578d0d85d916081448e4a61,LTR-0007 okta-credential-stuffing,https://logtriage.app/reference/log-formats/okta/
@@ -54,9 +54,9 @@ samples/wazuh/benign/wazuh_normal.json,wazuh,Wazuh,HIDS,benign,1943,4,135080cd77
 samples/evtx/benign/windows_normal_logons.xml,evtx,Windows Event Log,Endpoint,benign,5484,131,a41bf8a22043c1c29981c2e3fb2908e0b2ed27834a0ecf2183d6ada8132a5107,LTR-0012 windows-4625-password-spray,https://logtriage.app/reference/log-formats/evtx/
 samples/zeek/benign/zeek_normal_http.log,zeek,Zeek,IDS/IPS,benign,1904,14,ff9498803ac22ffa9c5f4d624353041e5a8e1f7794d986070311ce5411d1c5dc,LTR-0018 zeek-http-web-attack-recon,https://logtriage.app/reference/log-formats/zeek/
 samples/aws-alb/malicious/alb_attack.log,aws-alb,AWS ALB / ELB,Cloud,malicious,1627,4,16098d614a416719d69c2840a33bf8a68dea268a9b1ee8a3bc9a7f0893f49505,LTR-0019 aws-alb-scanner-scripted-access,
-samples/other/malicious/apache_error_attack.log,other,Other,,malicious,6998,43,fbf4759c9d6099f45d30364ac2439f05aa54a689ad013338218e64590517d85a,,
+samples/apache-error/malicious/apache_error_attack.log,apache-error,Apache HTTP Server error log,Web,malicious,6998,43,fbf4759c9d6099f45d30364ac2439f05aa54a689ad013338218e64590517d85a,,
 samples/auditd/malicious/auditd_ssh_bruteforce.log,auditd,Linux audit log (auditd),Endpoint,malicious,11174,48,036f8a3eacb98d67b576066a5a2886bfb4bab93539dbdc6fd1428f75ef11afa6,LTR-0027 auditd-ssh-brute-force,
-samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2586,27,d7c98038d3cda9dbb152f7bd79eb4f312568b2522390c139356d18cb13af2a07,LTR-0011 authlog-ssh-brute-force,
+samples/auth-log/malicious/authlog_brute_force.log,auth-log,Linux auth.log / secure,Endpoint,malicious,2585,27,0198736e3abe5f30fb44f1c67b24274bb68620f9f9432936b09fd1c18c8dcab1,LTR-0011 authlog-ssh-brute-force,
 samples/aws-config/malicious/aws_config_changes.json,aws-config,AWS Config,Cloud,malicious,1135,1,c9c3354c42a1493b3ee66d4d76d052f2c50bcac394568683173d73e4ea65ea38,LTR-0020 aws-config-security-control-tampering,
 samples/aws-waf/malicious/aws_waf_blocked.json,aws-waf,AWS WAF,WAF,malicious,3913,4,a951a49d8709290c394ae92a1025a7870cf4d1778a1a9831646bfd7ac3b7b7a0,LTR-0021 aws-waf-managed-rule-exploit-block,https://logtriage.app/reference/log-formats/aws-waf/
 samples/azure-activity/malicious/azure_activity_attack.json,azure-activity,Azure ARM Activity Log,Cloud,malicious,2681,68,c70194249b85c58de9149cd7c31ab1f1651a934f76940f30dc77d962ddd464a7,LTR-0022 azure-activity-privileged-role-assignment,
@@ -91,7 +91,7 @@ samples/m365/malicious/m365_bec_data_exfil.json,m365,Microsoft 365 Unified Audit
 samples/mdatp/malicious/mdatp_alerts.json,mdatp,Microsoft Defender for Endpoint,EDR,malicious,1730,4,e23967b006ae29f89a91ff6c69289a6df2dfc450e53293a8c4aee16751a30f06,,
 samples/mysql/malicious/mysql_attack.log,mysql,MySQL,Database,malicious,692,12,237144555e43d247bdca531efefde194ca95c58ec81664f6f292a8b6c38ed3f1,,
 samples/nginx/malicious/nginx_credential_stuffing.log,nginx,nginx / Apache Combined,Web,malicious,2613,22,9b17d412d1488ebf411ae0e28e0588932613b9b5c347ddc905fcd716e4d420e0,LTR-0001 nginx-credential-stuffing,
-samples/nginx/malicious/nginx_error_attack.log,nginx,nginx / Apache Combined,Web,malicious,7101,36,330fa0f92a452bdec8d74440a2b1ad5780c3f071586416920cb50fede99a1f19,,
+samples/nginx-error/malicious/nginx_error_attack.log,nginx-error,nginx error log,Web,malicious,7101,36,330fa0f92a452bdec8d74440a2b1ad5780c3f071586416920cb50fede99a1f19,,
 samples/nginx/malicious/nginx_prompt_injection.log,nginx,nginx / Apache Combined,Web,malicious,1757,12,b0453dec785295152abd20c7ac102d20af115d20b668a26d9113f131c96ca450,,
 samples/nginx/malicious/nginx_recon_sweep.log,nginx,nginx / Apache Combined,Web,malicious,1999,20,0197e07786968ae7f04c87664692fe4d3d3d06a63d00ca9a611d73f6566b271e,,
 samples/nginx/malicious/nginx_sqli_exfiltration.log,nginx,nginx / Apache Combined,Web,malicious,1939,13,3451f10cf509dafadb71cde75ff8c31cfa07c1ed77c9b760411008baa44ab46a,LTR-0015 nginx-sqli-data-exfiltration,

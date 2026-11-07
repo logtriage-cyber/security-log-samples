@@ -14,10 +14,10 @@
   "reference": ""
  },
  {
-  "path": "samples/other/benign/apache_error_normal.log",
-  "format": "other",
-  "format_name": "Other",
-  "category": "",
+  "path": "samples/apache-error/benign/apache_error_normal.log",
+  "format": "apache-error",
+  "format_name": "Apache HTTP Server error log",
+  "category": "Web",
   "label": "benign",
   "bytes": 2033,
   "lines": 10,
@@ -464,9 +464,9 @@
   "reference": ""
  },
  {
-  "path": "samples/nginx/benign/nginx_error_normal.log",
-  "format": "nginx",
-  "format_name": "nginx / Apache Combined",
+  "path": "samples/nginx-error/benign/nginx_error_normal.log",
+  "format": "nginx-error",
+  "format_name": "nginx error log",
   "category": "Web",
   "label": "benign",
   "bytes": 1641,
@@ -721,10 +721,10 @@
   "reference": ""
  },
  {
-  "path": "samples/other/malicious/apache_error_attack.log",
-  "format": "other",
-  "format_name": "Other",
-  "category": "",
+  "path": "samples/apache-error/malicious/apache_error_attack.log",
+  "format": "apache-error",
+  "format_name": "Apache HTTP Server error log",
+  "category": "Web",
   "label": "malicious",
   "bytes": 6998,
   "lines": 43,
@@ -752,9 +752,9 @@
   "format_name": "Linux auth.log / secure",
   "category": "Endpoint",
   "label": "malicious",
-  "bytes": 2586,
+  "bytes": 2585,
   "lines": 27,
-  "sha256": "d7c98038d3cda9dbb152f7bd79eb4f312568b2522390c139356d18cb13af2a07",
+  "sha256": "0198736e3abe5f30fb44f1c67b24274bb68620f9f9432936b09fd1c18c8dcab1",
   "sigma_rules": [
    "LTR-0011 authlog-ssh-brute-force"
   ],
@@ -1209,9 +1209,9 @@
   "reference": ""
  },
  {
-  "path": "samples/nginx/malicious/nginx_error_attack.log",
-  "format": "nginx",
-  "format_name": "nginx / Apache Combined",
+  "path": "samples/nginx-error/malicious/nginx_error_attack.log",
+  "format": "nginx-error",
+  "format_name": "nginx error log",
   "category": "Web",
   "label": "malicious",
   "bytes": 7101,

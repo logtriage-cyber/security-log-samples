@@ -1,6 +1,6 @@
 # Security log samples
 
-Paired **malicious** and **benign** sample logs for 51 security log formats — 113 files
+Paired **malicious** and **benign** sample logs for 52 security log formats — 113 files
 (59 malicious, 54 benign) — for testing log parsers, detection rules and
 analytics. Each attack sample has a benign counterpart from the same source, so a rule can be
 checked both ways: it must fire on the first and stay silent on the second.
@@ -22,6 +22,7 @@ manifest.csv    # the same, as CSV
 
 | Format | Category | Malicious | Benign | Field reference |
 |---|---|---|---|---|
+| Apache HTTP Server error log | Web | 1 | 1 |  |
 | AWS ALB / ELB | Cloud | 1 | 1 |  |
 | AWS CloudTrail | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudtrail/) |
 | AWS Config | Cloud | 1 | 1 |  |
@@ -58,9 +59,9 @@ manifest.csv    # the same, as CSV
 | Microsoft 365 Unified Audit Log | SaaS | 1 | 1 |  |
 | Microsoft Defender for Endpoint | EDR | 1 | 1 |  |
 | MySQL | Database | 1 | 1 |  |
-| nginx / Apache Combined | Web | 5 | 3 |  |
+| nginx / Apache Combined | Web | 4 | 2 |  |
+| nginx error log | Web | 1 | 1 |  |
 | Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
-| other |  | 1 | 1 |  |
 | PAN-OS Native CSV | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/panos/) |
 | PostgreSQL | Database | 1 | 1 |  |
 | SentinelOne | EDR | 1 | 1 |  |
