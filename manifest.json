@@ -1469,6 +1469,18 @@
   "reference": "https://logtriage.app/reference/log-formats/evtx/"
  },
  {
+  "path": "samples/evtx/malicious/windows_kerberoasting.xml",
+  "format": "evtx",
+  "format_name": "Windows Event Log",
+  "category": "Endpoint",
+  "label": "malicious",
+  "bytes": 10522,
+  "lines": 244,
+  "sha256": "0e64b5dea4a5834ea994679c0d5a69a2ed52ce3074f89ebabed29780185adf3c",
+  "sigma_rules": [],
+  "reference": "https://logtriage.app/reference/log-formats/evtx/"
+ },
+ {
   "path": "samples/zeek/malicious/zeek_http_attack.log",
   "format": "zeek",
   "format_name": "Zeek",

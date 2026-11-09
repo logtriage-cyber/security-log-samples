@@ -1,7 +1,7 @@
 # Security log samples
 
-Paired **malicious** and **benign** sample logs for 52 security log formats — 113 files
-(59 malicious, 54 benign) — for testing log parsers, detection rules and
+Paired **malicious** and **benign** sample logs for 52 security log formats — 114 files
+(60 malicious, 54 benign) — for testing log parsers, detection rules and
 analytics. Each attack sample has a benign counterpart from the same source, so a rule can be
 checked both ways: it must fire on the first and stay silent on the second.
 
@@ -72,7 +72,7 @@ manifest.csv    # the same, as CSV
 | Sysmon | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sysmon/) |
 | Traefik | Network | 1 | 1 |  |
 | Wazuh | HIDS | 1 | 1 |  |
-| Windows Event Log | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/evtx/) |
+| Windows Event Log | Endpoint | 2 | 1 | [reference](https://logtriage.app/reference/log-formats/evtx/) |
 | Zeek | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/zeek/) |
 
 Field-by-field explanations of each format are at
