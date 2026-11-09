@@ -22,7 +22,9 @@
   "bytes": 2033,
   "lines": 10,
   "sha256": "14d1b3f2fb8b6c7d1808145452349d4d4ff671e7f4e537b24777e5b0c27bfa2d",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0031 apache-error-admin-login-brute-force"
+  ],
   "reference": ""
  },
  {
@@ -272,7 +274,9 @@
   "bytes": 1550,
   "lines": 13,
   "sha256": "588591054145dc884ef56ab64ae061955699192ac84d111b42100e3bbfd06845",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0032 generic-csv-api-scraping"
+  ],
   "reference": ""
  },
  {
@@ -729,7 +733,9 @@
   "bytes": 6998,
   "lines": 43,
   "sha256": "fbf4759c9d6099f45d30364ac2439f05aa54a689ad013338218e64590517d85a",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0031 apache-error-admin-login-brute-force"
+  ],
   "reference": ""
  },
  {
@@ -1015,7 +1021,9 @@
   "bytes": 1868,
   "lines": 21,
   "sha256": "c7d96670b1c303af3f5077b6aca7dd81de2da58f69c8991a8d71847dd8600f58",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0032 generic-csv-api-scraping"
+  ],
   "reference": ""
  },
  {
