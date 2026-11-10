@@ -25,29 +25,29 @@ manifest.csv    # the same, as CSV
 | Apache HTTP Server error log | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/apache-error/) |
 | AWS ALB / ELB | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-alb/) |
 | AWS CloudTrail | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudtrail/) |
-| AWS Config | Cloud | 1 | 1 |  |
+| AWS Config | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-config/) |
 | AWS GuardDuty | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/guardduty/) |
 | AWS Inspector v2 | Cloud Security | 1 | 1 |  |
-| AWS S3 Server Access Logs | Cloud | 1 | 1 |  |
-| AWS Security Hub | Cloud Security | 1 | 1 |  |
+| AWS S3 Server Access Logs | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-s3-access/) |
+| AWS Security Hub | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-securityhub/) |
 | AWS VPC Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/vpc-flow/) |
 | AWS WAF | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-waf/) |
 | Azure AD Sign-In Logs | Identity | 4 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-ad-signin/) |
 | Azure ARM Activity Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-activity/) |
 | Azure NSG Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-nsg/) |
-| Carbon Black | EDR | 1 | 1 |  |
+| Carbon Black | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/carbonblack/) |
 | CEF (Common Event Format) | Network & Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cef/) |
 | Cisco ASA / FTD | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cisco-asa/) |
 | Cloudflare Logs | Network & CDN | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudflare/) |
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
 | Duo Security | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/duo/) |
-| Elastic Common Schema | SIEM | 1 | 1 |  |
+| Elastic Common Schema | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/ecs/) |
 | F5 BIG-IP ASM | WAF | 1 | 1 |  |
 | FortiGate | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/fortigate/) |
 | GCP Cloud Audit Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/gcp-audit/) |
 | Generic CSV | Generic | 2 | 2 |  |
-| GitHub Audit Log | SaaS | 1 | 1 |  |
-| Google Workspace | SaaS | 1 | 1 |  |
+| GitHub Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/github-audit/) |
+| Google Workspace | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/google-workspace/) |
 | HAProxy | Network | 1 | 1 |  |
 | IBM LEEF | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/leef/) |
 | IIS W3C Extended | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/iis/) |

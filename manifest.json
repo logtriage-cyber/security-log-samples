@@ -67,7 +67,7 @@
   "sigma_rules": [
    "LTR-0020 aws-config-security-control-tampering"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-config/"
  },
  {
   "path": "samples/aws-waf/benign/aws_waf_normal.json",
@@ -117,13 +117,13 @@
   "format_name": "Carbon Black",
   "category": "EDR",
   "label": "benign",
-  "bytes": 833,
+  "bytes": 869,
   "lines": 3,
-  "sha256": "8ac3d926a394d7e3a625175fafee592d9eeba51a66c45f47cb0ff63338865ae9",
+  "sha256": "848365075a16c1dbcfbb68c6c70539bad989dd9dfd4c69ebbf151d3db46b9657",
   "sigma_rules": [
    "LTR-0023 carbonblack-mimikatz-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/carbonblack/"
  },
  {
   "path": "samples/cef/benign/cef_firewall_normal.log",
@@ -221,7 +221,7 @@
   "sigma_rules": [
    "LTR-0028 ecs-mimikatz-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/ecs/"
  },
  {
   "path": "samples/f5-asm/benign/f5_asm_normal.log",
@@ -297,13 +297,13 @@
   "format_name": "GitHub Audit Log",
   "category": "SaaS",
   "label": "benign",
-  "bytes": 576,
+  "bytes": 543,
   "lines": 1,
-  "sha256": "8713c60e84f22a8a99e838a002b17d980513f15a3012ee852a59aaeb9334f24f",
+  "sha256": "15c46a464c59b40ac2a48105c9c62517af04779d8fd42afeb09b0d6e140b9c7f",
   "sigma_rules": [
    "LTR-0014 github-audit-org-takeover"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/github-audit/"
  },
  {
   "path": "samples/google-workspace/benign/google_workspace_normal.json",
@@ -317,7 +317,7 @@
   "sigma_rules": [
    "LTR-0017 google-workspace-admin-takeover"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/google-workspace/"
  },
  {
   "path": "samples/guardduty/benign/guardduty_normal.json",
@@ -556,7 +556,7 @@
   "sigma_rules": [
    "LTR-0016 s3-anonymous-access-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-s3-access/"
  },
  {
   "path": "samples/aws-securityhub/benign/securityhub_normal.json",
@@ -564,11 +564,11 @@
   "format_name": "AWS Security Hub",
   "category": "Cloud Security",
   "label": "benign",
-  "bytes": 1595,
-  "lines": 1,
-  "sha256": "54ce108ce237893cced5d02b46dbb194c592c31d4b49eb9b74d789eeb9262a38",
+  "bytes": 2032,
+  "lines": 54,
+  "sha256": "4eb057cc169d3edc4998455ecd55996ac0ce110dd04dd1da9495be3716334118",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-securityhub/"
  },
  {
   "path": "samples/sentinelone/benign/sentinelone_normal.json",
@@ -778,7 +778,7 @@
   "sigma_rules": [
    "LTR-0020 aws-config-security-control-tampering"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-config/"
  },
  {
   "path": "samples/aws-waf/malicious/aws_waf_blocked.json",
@@ -864,13 +864,13 @@
   "format_name": "Carbon Black",
   "category": "EDR",
   "label": "malicious",
-  "bytes": 1327,
+  "bytes": 1524,
   "lines": 4,
-  "sha256": "fccf3e72715cca91f78295c8f22fba8c12d422385d9894877b92f2bcd958ed8a",
+  "sha256": "39b171d232f2a75a9d0b42a100d0145d15e6f6405ec786344cc40465cdb9c9cb",
   "sigma_rules": [
    "LTR-0023 carbonblack-mimikatz-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/carbonblack/"
  },
  {
   "path": "samples/cef/malicious/cef_firewall_attack.log",
@@ -968,7 +968,7 @@
   "sigma_rules": [
    "LTR-0028 ecs-mimikatz-credential-dumping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/ecs/"
  },
  {
   "path": "samples/f5-asm/malicious/f5_asm_attacks.log",
@@ -1044,13 +1044,13 @@
   "format_name": "GitHub Audit Log",
   "category": "SaaS",
   "label": "malicious",
-  "bytes": 754,
+  "bytes": 718,
   "lines": 1,
-  "sha256": "245ff1a53479faae08a08950c13fc2f5e51157866f8b66fb636110204d0f5918",
+  "sha256": "9bf6aa4250b6bc5b6106976439daf6238560abaeaeffca45783ea6493c9609cb",
   "sigma_rules": [
    "LTR-0014 github-audit-org-takeover"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/github-audit/"
  },
  {
   "path": "samples/google-workspace/malicious/google_workspace_attack.json",
@@ -1064,7 +1064,7 @@
   "sigma_rules": [
    "LTR-0017 google-workspace-admin-takeover"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/google-workspace/"
  },
  {
   "path": "samples/guardduty/malicious/guardduty_findings.json",
@@ -1328,7 +1328,7 @@
   "sigma_rules": [
    "LTR-0016 s3-anonymous-access-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-s3-access/"
  },
  {
   "path": "samples/aws-securityhub/malicious/securityhub_findings.json",
@@ -1336,11 +1336,11 @@
   "format_name": "AWS Security Hub",
   "category": "Cloud Security",
   "label": "malicious",
-  "bytes": 1659,
-  "lines": 1,
-  "sha256": "beb1d7d6302e100400a1c900aff3e19c4cc0a6fee5722d1c37a8897492008206",
+  "bytes": 2362,
+  "lines": 66,
+  "sha256": "94f6cd4b9175e4439fd8fc991eca7c650e80726808d0e8b6b9b98d46ced6f5e2",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-securityhub/"
  },
  {
   "path": "samples/sentinelone/malicious/sentinelone_threats.json",
