@@ -8,7 +8,7 @@
       "id": "finding010",
       "region": "us-east-1",
       "severity": 2.0,
-      "title": "Recon:EC2/PortProbeUnprotectedPort",
+      "title": "Unprotected port on EC2 instance i-0abc123def456 is being probed.",
       "type": "Recon:EC2/PortProbeUnprotectedPort",
       "updatedAt": "2024-01-15T09:01:00Z",
       "service": {
@@ -18,12 +18,23 @@
             "blocked": true,
             "portProbeDetails": [
               {
-                "localPortDetails": {"port": 443, "portName": "HTTPS"},
+                "localPortDetails": {
+                  "port": 443,
+                  "portName": "HTTPS"
+                },
                 "remoteIpDetails": {
                   "ipAddressV4": "203.0.113.10",
-                  "city": {"cityName": "New York"},
-                  "country": {"countryCode": "US", "countryName": "United States"},
-                  "organization": {"asn": "7922", "asnOrg": "Comcast Cable Communications LLC"}
+                  "city": {
+                    "cityName": "New York"
+                  },
+                  "country": {
+                    "countryCode": "US",
+                    "countryName": "United States"
+                  },
+                  "organization": {
+                    "asn": "7922",
+                    "asnOrg": "Comcast Cable Communications LLC"
+                  }
                 }
               }
             ]
@@ -35,30 +46,44 @@
         "eventLastSeen": "2024-01-15T09:00:00Z",
         "resourceRole": "TARGET",
         "serviceName": "guardduty"
+      },
+      "resource": {
+        "resourceType": "Instance",
+        "instanceDetails": {
+          "instanceId": "i-0abc123def456"
+        }
       }
     },
     {
       "accountId": "123456789012",
       "arn": "arn:aws:guardduty:us-east-1:123456789012:detector/abc123/finding/finding011",
       "createdAt": "2024-01-15T10:00:00Z",
-      "description": "S3 bucket accessed from corporate IP during business hours.",
+      "description": "Amazon S3 Block Public Access was disabled for S3 bucket public-website-assets by the IAM user web-admin.",
       "id": "finding011",
       "region": "us-east-1",
-      "severity": 1.0,
-      "title": "Policy:S3/BucketPublicAccessGranted",
-      "type": "Policy:S3/BucketPublicAccessGranted",
+      "severity": 2.0,
+      "title": "Amazon S3 Block Public Access was disabled for S3 bucket public-website-assets.",
+      "type": "Policy:S3/BucketBlockPublicAccessDisabled",
       "updatedAt": "2024-01-15T10:00:30Z",
       "service": {
         "action": {
           "actionType": "AWS_API_CALL",
           "awsApiCallAction": {
-            "api": "PutBucketAcl",
+            "api": "PutBucketPublicAccessBlock",
             "callerType": "Remote IP",
             "remoteIpDetails": {
               "ipAddressV4": "203.0.113.50",
-              "city": {"cityName": "Seattle"},
-              "country": {"countryCode": "US", "countryName": "United States"},
-              "organization": {"asn": "16509", "asnOrg": "Amazon.com Inc."}
+              "city": {
+                "cityName": "Seattle"
+              },
+              "country": {
+                "countryCode": "US",
+                "countryName": "United States"
+              },
+              "organization": {
+                "asn": "16509",
+                "asnOrg": "Amazon.com Inc."
+              }
             },
             "serviceName": "s3.amazonaws.com"
           }
@@ -69,6 +94,15 @@
         "eventLastSeen": "2024-01-15T10:00:00Z",
         "resourceRole": "TARGET",
         "serviceName": "guardduty"
+      },
+      "resource": {
+        "resourceType": "S3Bucket",
+        "s3BucketDetails": [
+          {
+            "name": "public-website-assets",
+            "type": "Destination"
+          }
+        ]
       }
     }
   ]

@@ -11,7 +11,7 @@
   "sigma_rules": [
    "LTR-0019 aws-alb-scanner-scripted-access"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-alb/"
  },
  {
   "path": "samples/apache-error/benign/apache_error_normal.log",
@@ -25,7 +25,7 @@
   "sigma_rules": [
    "LTR-0031 apache-error-admin-login-brute-force"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/apache-error/"
  },
  {
   "path": "samples/auditd/benign/auditd_normal.log",
@@ -53,7 +53,7 @@
   "sigma_rules": [
    "LTR-0011 authlog-ssh-brute-force"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/auth-log/"
  },
  {
   "path": "samples/aws-config/benign/aws_config_normal.json",
@@ -161,11 +161,11 @@
   "label": "benign",
   "bytes": 2274,
   "lines": 6,
-  "sha256": "a94639f1e23f359b5c35c5ec0b537fc135b596d1022ead7e8342b31456d9abc6",
+  "sha256": "484dc72d35d051cd26065dffdaad0a5afe1d47974c12970e19bbf0746949e89f",
   "sigma_rules": [
    "LTR-0010 cloudflare-path-traversal-recon"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cloudflare/"
  },
  {
   "path": "samples/cloudtrail/benign/cloudtrail_normal_operations.json",
@@ -325,11 +325,11 @@
   "format_name": "AWS GuardDuty",
   "category": "Cloud Security",
   "label": "benign",
-  "bytes": 2682,
-  "lines": 75,
-  "sha256": "f85f693428796aee4c349fcd15c7093f56339a1a91d2d98168605fa3ec138baf",
+  "bytes": 3518,
+  "lines": 109,
+  "sha256": "8b41467fd26aabcf93d025b27963f2c21f7021306f7cae1133c079075693b6b7",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/guardduty/"
  },
  {
   "path": "samples/haproxy/benign/haproxy_normal.log",
@@ -465,7 +465,7 @@
   "lines": 15,
   "sha256": "d36f80ecf797e7e32ba418ff7fc682d899d669a3929fc9916ccc78b2b09bf6fc",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/nginx-error/benign/nginx_error_normal.log",
@@ -477,7 +477,7 @@
   "lines": 10,
   "sha256": "e7914b4ea0ab206154ef445307097112e5ced2147f82e652b67fed9f909d511b",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx-error/"
  },
  {
   "path": "samples/nginx/benign/nginx_normal_browsing.log",
@@ -492,7 +492,7 @@
    "LTR-0001 nginx-credential-stuffing",
    "LTR-0015 nginx-sqli-data-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/azure-nsg/benign/nsg_flow_benign.json",
@@ -500,11 +500,11 @@
   "format_name": "Azure NSG Flow Logs",
   "category": "Cloud Network",
   "label": "benign",
-  "bytes": 2358,
+  "bytes": 2385,
   "lines": 68,
-  "sha256": "dc85b4c95e35e97802cd10c373a88871d62b64956d7623856a9a3a21a481bd93",
+  "sha256": "94d4520e784fe209898779eced08f1854d019239312e51cfcc7123759d548d49",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/azure-nsg/"
  },
  {
   "path": "samples/okta/benign/okta_normal_logins.json",
@@ -722,7 +722,7 @@
   "sigma_rules": [
    "LTR-0019 aws-alb-scanner-scripted-access"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/aws-alb/"
  },
  {
   "path": "samples/apache-error/malicious/apache_error_attack.log",
@@ -736,7 +736,7 @@
   "sigma_rules": [
    "LTR-0031 apache-error-admin-login-brute-force"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/apache-error/"
  },
  {
   "path": "samples/auditd/malicious/auditd_ssh_bruteforce.log",
@@ -764,7 +764,7 @@
   "sigma_rules": [
    "LTR-0011 authlog-ssh-brute-force"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/auth-log/"
  },
  {
   "path": "samples/aws-config/malicious/aws_config_changes.json",
@@ -906,13 +906,13 @@
   "format_name": "Cloudflare Logs",
   "category": "Network & CDN",
   "label": "malicious",
-  "bytes": 3677,
+  "bytes": 3683,
   "lines": 10,
-  "sha256": "c6ec9fea95ff1314678c452a65f8fa9279e32f0375d03513e6859e88fbc3d193",
+  "sha256": "b2c0f40d835f9892a98889811c2ca35dea762b48149f372bb550acda05006ab9",
   "sigma_rules": [
    "LTR-0010 cloudflare-path-traversal-recon"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/cloudflare/"
  },
  {
   "path": "samples/cloudtrail/malicious/cloudtrail_iam_escalation.json",
@@ -1072,11 +1072,11 @@
   "format_name": "AWS GuardDuty",
   "category": "Cloud Security",
   "label": "malicious",
-  "bytes": 4362,
-  "lines": 112,
-  "sha256": "dba6b93ec0bdc8dbfcb6191a3aa88fb09caa1c0b43af86938f3847fac31020b1",
+  "bytes": 5815,
+  "lines": 178,
+  "sha256": "ae20699fba8a27cdb168bb5357149d207624384b44838259cceff4c45e40db75",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/guardduty/"
  },
  {
   "path": "samples/haproxy/malicious/haproxy_attack.log",
@@ -1214,7 +1214,7 @@
   "sigma_rules": [
    "LTR-0001 nginx-credential-stuffing"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/nginx-error/malicious/nginx_error_attack.log",
@@ -1226,7 +1226,7 @@
   "lines": 36,
   "sha256": "330fa0f92a452bdec8d74440a2b1ad5780c3f071586416920cb50fede99a1f19",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx-error/"
  },
  {
   "path": "samples/nginx/malicious/nginx_prompt_injection.log",
@@ -1238,7 +1238,7 @@
   "lines": 12,
   "sha256": "5cc1c280261bdf3be00f5021d1ead436a77e411d1f30c065901206ce93f071d6",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/nginx/malicious/nginx_recon_sweep.log",
@@ -1250,7 +1250,7 @@
   "lines": 20,
   "sha256": "0197e07786968ae7f04c87664692fe4d3d3d06a63d00ca9a611d73f6566b271e",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/nginx/malicious/nginx_sqli_exfiltration.log",
@@ -1264,7 +1264,7 @@
   "sigma_rules": [
    "LTR-0015 nginx-sqli-data-exfiltration"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/nginx/"
  },
  {
   "path": "samples/azure-nsg/malicious/nsg_flow_malicious.json",
@@ -1272,11 +1272,11 @@
   "format_name": "Azure NSG Flow Logs",
   "category": "Cloud Network",
   "label": "malicious",
-  "bytes": 2662,
+  "bytes": 2671,
   "lines": 65,
-  "sha256": "16bf29bb48a9383e0cf4106682a4285e04147f1ce540039d2e2e7f5dcb21c173",
+  "sha256": "af8a08ff816f6524cbdb77e015fd09a892eed39efa1aedbd15dc1f00d8cc8aae",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/azure-nsg/"
  },
  {
   "path": "samples/okta/malicious/okta_credential_stuffing.json",

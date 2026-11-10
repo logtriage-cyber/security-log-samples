@@ -22,11 +22,11 @@ manifest.csv    # the same, as CSV
 
 | Format | Category | Malicious | Benign | Field reference |
 |---|---|---|---|---|
-| Apache HTTP Server error log | Web | 1 | 1 |  |
-| AWS ALB / ELB | Cloud | 1 | 1 |  |
+| Apache HTTP Server error log | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/apache-error/) |
+| AWS ALB / ELB | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-alb/) |
 | AWS CloudTrail | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudtrail/) |
 | AWS Config | Cloud | 1 | 1 |  |
-| AWS GuardDuty | Cloud Security | 1 | 1 |  |
+| AWS GuardDuty | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/guardduty/) |
 | AWS Inspector v2 | Cloud Security | 1 | 1 |  |
 | AWS S3 Server Access Logs | Cloud | 1 | 1 |  |
 | AWS Security Hub | Cloud Security | 1 | 1 |  |
@@ -34,11 +34,11 @@ manifest.csv    # the same, as CSV
 | AWS WAF | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-waf/) |
 | Azure AD Sign-In Logs | Identity | 4 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-ad-signin/) |
 | Azure ARM Activity Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-activity/) |
-| Azure NSG Flow Logs | Cloud Network | 1 | 1 |  |
+| Azure NSG Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-nsg/) |
 | Carbon Black | EDR | 1 | 1 |  |
 | CEF (Common Event Format) | Network & Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cef/) |
 | Cisco ASA / FTD | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cisco-asa/) |
-| Cloudflare Logs | Network & CDN | 1 | 1 |  |
+| Cloudflare Logs | Network & CDN | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudflare/) |
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
 | Duo Security | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/duo/) |
 | Elastic Common Schema | SIEM | 1 | 1 |  |
@@ -55,12 +55,12 @@ manifest.csv    # the same, as CSV
 | Juniper SRX | Firewall | 1 | 1 |  |
 | Kubernetes Audit Log | Cloud-Native | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/k8s-audit/) |
 | Linux audit log (auditd) | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/auditd/) |
-| Linux auth.log / secure | Endpoint | 1 | 1 |  |
+| Linux auth.log / secure | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/auth-log/) |
 | Microsoft 365 Unified Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/m365/) |
 | Microsoft Defender for Endpoint | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/mdatp/) |
 | MySQL | Database | 1 | 1 |  |
-| nginx / Apache Combined | Web | 4 | 2 |  |
-| nginx error log | Web | 1 | 1 |  |
+| nginx / Apache Combined | Web | 4 | 2 | [reference](https://logtriage.app/reference/log-formats/nginx/) |
+| nginx error log | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/nginx-error/) |
 | Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
 | PAN-OS Native CSV | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/panos/) |
 | PostgreSQL | Database | 1 | 1 |  |
