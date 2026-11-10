@@ -33,31 +33,31 @@ manifest.csv    # the same, as CSV
 | AWS VPC Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/vpc-flow/) |
 | AWS WAF | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-waf/) |
 | Azure AD Sign-In Logs | Identity | 4 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-ad-signin/) |
-| Azure ARM Activity Log | Cloud | 1 | 1 |  |
+| Azure ARM Activity Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/azure-activity/) |
 | Azure NSG Flow Logs | Cloud Network | 1 | 1 |  |
 | Carbon Black | EDR | 1 | 1 |  |
 | CEF (Common Event Format) | Network & Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cef/) |
-| Cisco ASA / FTD | Firewall | 1 | 1 |  |
+| Cisco ASA / FTD | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cisco-asa/) |
 | Cloudflare Logs | Network & CDN | 1 | 1 |  |
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
 | Duo Security | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/duo/) |
 | Elastic Common Schema | SIEM | 1 | 1 |  |
 | F5 BIG-IP ASM | WAF | 1 | 1 |  |
-| FortiGate | Firewall | 1 | 1 |  |
-| GCP Cloud Audit Log | Cloud | 1 | 1 |  |
+| FortiGate | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/fortigate/) |
+| GCP Cloud Audit Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/gcp-audit/) |
 | Generic CSV | Generic | 2 | 2 |  |
 | GitHub Audit Log | SaaS | 1 | 1 |  |
 | Google Workspace | SaaS | 1 | 1 |  |
 | HAProxy | Network | 1 | 1 |  |
 | IBM LEEF | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/leef/) |
-| IIS W3C Extended | Web | 1 | 1 |  |
+| IIS W3C Extended | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/iis/) |
 | JumpCloud Directory | Identity | 1 | 1 |  |
 | Juniper SRX | Firewall | 1 | 1 |  |
 | Kubernetes Audit Log | Cloud-Native | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/k8s-audit/) |
-| Linux audit log (auditd) | Endpoint | 1 | 1 |  |
+| Linux audit log (auditd) | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/auditd/) |
 | Linux auth.log / secure | Endpoint | 1 | 1 |  |
-| Microsoft 365 Unified Audit Log | SaaS | 1 | 1 |  |
-| Microsoft Defender for Endpoint | EDR | 1 | 1 |  |
+| Microsoft 365 Unified Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/m365/) |
+| Microsoft Defender for Endpoint | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/mdatp/) |
 | MySQL | Database | 1 | 1 |  |
 | nginx / Apache Combined | Web | 4 | 2 |  |
 | nginx error log | Web | 1 | 1 |  |

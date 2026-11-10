@@ -4,7 +4,7 @@
       "accountId": "123456789012",
       "arn": "arn:aws:guardduty:us-east-1:123456789012:detector/abc123/finding/finding001",
       "createdAt": "2024-01-15T14:32:01Z",
-      "description": "198.51.100.25 is performing SSH brute force attacks against i-0abc123def456.",
+      "description": "198.51.100.26 is performing SSH brute force attacks against i-0abc123def456.",
       "id": "finding001",
       "region": "us-east-1",
       "severity": 8.0,
@@ -20,7 +20,7 @@
             "localPortDetails": {"port": 22, "portName": "SSH"},
             "protocol": "TCP",
             "remoteIpDetails": {
-              "ipAddressV4": "198.51.100.25",
+              "ipAddressV4": "198.51.100.26",
               "city": {"cityName": "Stockholm"},
               "country": {"countryCode": "SE", "countryName": "Sweden"},
               "geoLocation": {"lat": 59.3293, "lon": 18.0686},
@@ -92,7 +92,7 @@
             "api": "ListBuckets",
             "callerType": "Remote IP",
             "remoteIpDetails": {
-              "ipAddressV4": "198.51.100.25",
+              "ipAddressV4": "198.51.100.26",
               "city": {"cityName": "Stockholm"},
               "country": {"countryCode": "SE", "countryName": "Sweden"},
               "organization": {"asn": "60068", "asnOrg": "Datacamp Limited"}
