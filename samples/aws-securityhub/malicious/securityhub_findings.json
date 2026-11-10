@@ -46,7 +46,7 @@
         "Normalized": 80
       },
       "Title": "EC2 instance i-0abc123def456789 is querying an IP address associated with a known command and control server.",
-      "Description": "EC2 instance i-0abc123def456789 is communicating with 198.51.100.26, an IP address associated with a known command and control server.",
+      "Description": "EC2 instance i-0abc123def456789 is communicating with 198.51.100.25, an IP address associated with a known command and control server.",
       "Resources": [
         {
           "Type": "AwsEc2Instance",
@@ -55,7 +55,7 @@
           "Details": {
             "AwsEc2Instance": {
               "IpV4Addresses": [
-                "198.51.100.26"
+                "198.51.100.25"
               ]
             }
           }

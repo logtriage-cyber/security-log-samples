@@ -4,11 +4,11 @@
       "accountId": "123456789012",
       "arn": "arn:aws:guardduty:us-east-1:123456789012:detector/abc123/finding/finding001",
       "createdAt": "2024-01-15T14:32:01Z",
-      "description": "198.51.100.26 is performing SSH brute force attacks against i-0abc123def456.",
+      "description": "198.51.100.25 is performing SSH brute force attacks against i-0abc123def456.",
       "id": "finding001",
       "region": "us-east-1",
       "severity": 2.0,
-      "title": "198.51.100.26 is performing SSH brute force attacks against i-0abc123def456.",
+      "title": "198.51.100.25 is performing SSH brute force attacks against i-0abc123def456.",
       "type": "UnauthorizedAccess:EC2/SSHBruteForce",
       "updatedAt": "2024-01-15T14:35:00Z",
       "service": {
@@ -23,7 +23,7 @@
             },
             "protocol": "TCP",
             "remoteIpDetails": {
-              "ipAddressV4": "198.51.100.26",
+              "ipAddressV4": "198.51.100.25",
               "city": {
                 "cityName": "Stockholm"
               },
@@ -128,7 +128,7 @@
       "accountId": "123456789012",
       "arn": "arn:aws:guardduty:us-east-1:123456789012:detector/abc123/finding/finding003",
       "createdAt": "2024-01-15T15:00:00Z",
-      "description": "API ListBuckets was invoked from IP address 198.51.100.26, which is on a threat list.",
+      "description": "API ListBuckets was invoked from IP address 198.51.100.25, which is on a threat list.",
       "id": "finding003",
       "region": "us-east-1",
       "severity": 6.0,
@@ -142,7 +142,7 @@
             "api": "ListBuckets",
             "callerType": "Remote IP",
             "remoteIpDetails": {
-              "ipAddressV4": "198.51.100.26",
+              "ipAddressV4": "198.51.100.25",
               "city": {
                 "cityName": "Stockholm"
               },

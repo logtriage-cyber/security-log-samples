@@ -27,7 +27,7 @@ manifest.csv    # the same, as CSV
 | AWS CloudTrail | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/cloudtrail/) |
 | AWS Config | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-config/) |
 | AWS GuardDuty | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/guardduty/) |
-| AWS Inspector v2 | Cloud Security | 1 | 1 |  |
+| AWS Inspector v2 | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-inspector/) |
 | AWS S3 Server Access Logs | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-s3-access/) |
 | AWS Security Hub | Cloud Security | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/aws-securityhub/) |
 | AWS VPC Flow Logs | Cloud Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/vpc-flow/) |
@@ -42,36 +42,36 @@ manifest.csv    # the same, as CSV
 | CrowdStrike Falcon | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/crowdstrike/) |
 | Duo Security | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/duo/) |
 | Elastic Common Schema | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/ecs/) |
-| F5 BIG-IP ASM | WAF | 1 | 1 |  |
+| F5 BIG-IP ASM | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/f5-asm/) |
 | FortiGate | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/fortigate/) |
 | GCP Cloud Audit Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/gcp-audit/) |
 | Generic CSV | Generic | 2 | 2 |  |
 | GitHub Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/github-audit/) |
 | Google Workspace | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/google-workspace/) |
-| HAProxy | Network | 1 | 1 |  |
+| HAProxy | Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/haproxy/) |
 | IBM LEEF | SIEM | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/leef/) |
 | IIS W3C Extended | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/iis/) |
-| JumpCloud Directory | Identity | 1 | 1 |  |
-| Juniper SRX | Firewall | 1 | 1 |  |
+| JumpCloud Directory | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/jumpcloud/) |
+| Juniper SRX | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/juniper-srx/) |
 | Kubernetes Audit Log | Cloud-Native | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/k8s-audit/) |
 | Linux audit log (auditd) | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/auditd/) |
 | Linux auth.log / secure | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/auth-log/) |
 | Microsoft 365 Unified Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/m365/) |
 | Microsoft Defender for Endpoint | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/mdatp/) |
-| MySQL | Database | 1 | 1 |  |
+| MySQL | Database | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/mysql/) |
 | nginx / Apache Combined | Web | 4 | 2 | [reference](https://logtriage.app/reference/log-formats/nginx/) |
 | nginx error log | Web | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/nginx-error/) |
 | Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
 | PAN-OS Native CSV | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/panos/) |
-| PostgreSQL | Database | 1 | 1 |  |
+| PostgreSQL | Database | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/postgresql/) |
 | SentinelOne | EDR | 1 | 1 |  |
-| Slack Audit Log | SaaS | 1 | 1 |  |
-| Snort | IDS/IPS | 1 | 1 |  |
+| Slack Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/slack-audit/) |
+| Snort | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/snort/) |
 | Suricata | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/suricata/) |
 | Syslog (RFC 5424 / 3164) | Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/syslog/) |
 | Sysmon | Endpoint | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sysmon/) |
-| Traefik | Network | 1 | 1 |  |
-| Wazuh | HIDS | 1 | 1 |  |
+| Traefik | Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/traefik/) |
+| Wazuh | HIDS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/wazuh/) |
 | Windows Event Log | Endpoint | 2 | 1 | [reference](https://logtriage.app/reference/log-formats/evtx/) |
 | Zeek | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/zeek/) |
 

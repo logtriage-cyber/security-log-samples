@@ -25,7 +25,7 @@
       <Data Name="Image">C:\Program Files\Google\Chrome\Application\chrome.exe</Data>
       <Data Name="User">CORP\alice</Data>
       <Data Name="SourceIp">10.0.0.10</Data>
-      <Data Name="DestinationIp">198.51.100.18</Data>
+      <Data Name="DestinationIp">198.51.100.17</Data>
       <Data Name="DestinationPort">443</Data>
       <Data Name="Protocol">tcp</Data>
     </EventData>
@@ -40,7 +40,7 @@
     <EventData>
       <Data Name="QueryName">www.google.com</Data>
       <Data Name="QueryStatus">0</Data>
-      <Data Name="QueryResults">198.51.100.18</Data>
+      <Data Name="QueryResults">198.51.100.17</Data>
       <Data Name="User">CORP\alice</Data>
     </EventData>
   </Event>
