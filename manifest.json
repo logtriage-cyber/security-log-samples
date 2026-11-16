@@ -328,7 +328,9 @@
   "bytes": 3518,
   "lines": 109,
   "sha256": "8b41467fd26aabcf93d025b27963f2c21f7021306f7cae1133c079075693b6b7",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0033 guardduty-backdoor-c2-communication"
+  ],
   "reference": "https://logtriage.app/reference/log-formats/guardduty/"
  },
  {
@@ -340,7 +342,9 @@
   "bytes": 582,
   "lines": 3,
   "sha256": "356266f34db25a058c9f0e7132dcfc7d8bed0ec66c65119e138bc9ce9dce82f9",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0034 haproxy-sensitive-path-scanning"
+  ],
   "reference": "https://logtriage.app/reference/log-formats/haproxy/"
  },
  {
@@ -1075,7 +1079,9 @@
   "bytes": 5815,
   "lines": 178,
   "sha256": "72bf900ac814b904d7fd431f77ab99e4a79f4ee9846b96c6308079dc9f5ecd35",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0033 guardduty-backdoor-c2-communication"
+  ],
   "reference": "https://logtriage.app/reference/log-formats/guardduty/"
  },
  {
@@ -1087,7 +1093,9 @@
   "bytes": 967,
   "lines": 5,
   "sha256": "76174ed006021ceb35d8cddbd91843e76cf3808d44af44857055fe5ae4d84ff9",
-  "sigma_rules": [],
+  "sigma_rules": [
+   "LTR-0034 haproxy-sensitive-path-scanning"
+  ],
   "reference": "https://logtriage.app/reference/log-formats/haproxy/"
  },
  {
