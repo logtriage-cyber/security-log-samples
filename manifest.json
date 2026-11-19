@@ -277,7 +277,7 @@
   "sigma_rules": [
    "LTR-0032 generic-csv-api-scraping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/generic-csv/"
  },
  {
   "path": "samples/generic-csv/benign/generic_signups_normal.csv",
@@ -289,7 +289,7 @@
   "lines": 41,
   "sha256": "5959763469e469a8e2cae3934ab40173a4688c289329821089a689709c56071e",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/generic-csv/"
  },
  {
   "path": "samples/github-audit/benign/github_audit_normal.json",
@@ -584,7 +584,7 @@
   "lines": 2,
   "sha256": "3ec84f55f1c9214ede898d616bb6e856b24f5751f509deae488702e850cb42f5",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/sentinelone/"
  },
  {
   "path": "samples/slack-audit/benign/slack_audit_normal.json",
@@ -1028,7 +1028,7 @@
   "sigma_rules": [
    "LTR-0032 generic-csv-api-scraping"
   ],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/generic-csv/"
  },
  {
   "path": "samples/generic-csv/malicious/generic_signup_mailbox_aliases.csv",
@@ -1040,7 +1040,7 @@
   "lines": 133,
   "sha256": "e4231852cb43494cf96c51edd7eaca7ac1dbb1829715ee7f149e633fc5b6c3be",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/generic-csv/"
  },
  {
   "path": "samples/github-audit/malicious/github_audit_attack.json",
@@ -1360,7 +1360,7 @@
   "lines": 3,
   "sha256": "9d27299c389a30cf8bee7ad21b6690c98b89847ee4cbef190fc33aa8a12519e2",
   "sigma_rules": [],
-  "reference": ""
+  "reference": "https://logtriage.app/reference/log-formats/sentinelone/"
  },
  {
   "path": "samples/slack-audit/malicious/slack_audit_attack.json",

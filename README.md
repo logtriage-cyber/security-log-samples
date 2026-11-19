@@ -45,7 +45,7 @@ manifest.csv    # the same, as CSV
 | F5 BIG-IP ASM | WAF | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/f5-asm/) |
 | FortiGate | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/fortigate/) |
 | GCP Cloud Audit Log | Cloud | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/gcp-audit/) |
-| Generic CSV | Generic | 2 | 2 |  |
+| Generic CSV | Generic | 2 | 2 | [reference](https://logtriage.app/reference/log-formats/generic-csv/) |
 | GitHub Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/github-audit/) |
 | Google Workspace | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/google-workspace/) |
 | HAProxy | Network | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/haproxy/) |
@@ -64,7 +64,7 @@ manifest.csv    # the same, as CSV
 | Okta System Log | Identity | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/okta/) |
 | PAN-OS Native CSV | Firewall | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/panos/) |
 | PostgreSQL | Database | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/postgresql/) |
-| SentinelOne | EDR | 1 | 1 |  |
+| SentinelOne | EDR | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/sentinelone/) |
 | Slack Audit Log | SaaS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/slack-audit/) |
 | Snort | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/snort/) |
 | Suricata | IDS/IPS | 1 | 1 | [reference](https://logtriage.app/reference/log-formats/suricata/) |
